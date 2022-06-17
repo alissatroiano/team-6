@@ -7,3 +7,8 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+.gitpod.dockerfile
+.gitpod.yml
+.vscode
+.vscode/
+.vscode/settings.json
