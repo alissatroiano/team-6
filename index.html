@@ -8,13 +8,14 @@
     <!--Bootstrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
-</head>
+</head>`
 
-<body>   
-    <header>
+<body> 
+    <div class="container-fluid">
+    <header class="d-flex flex-wrap justify-content-center justify-content-lg-around py-3 mb-4 border-0 my-0">
         <!-- Logo -->
         <a href="index.html">
-            <h1 id="logo"><i class="fa-solid fa-droplet"></i>INCLUSION</h1>
+            <h1 id="logo"><i class="fa-solid fa-droplet"></i> INKLUSION</h1>
         </a>
         <!-- Navigation -->
         <nav>
@@ -23,7 +24,7 @@
                     <a href="#">Hire Artists</a>
                 </li>
                 <li>
-                    <a href="#">Gallery</a>
+                    <a href="#gallery">Gallery</a>
                 </li>
                 <li>
                     <a href="#">About</a>
@@ -34,6 +35,39 @@
             </ul>
         </nav>
     </header>
+</div>
+
+<!--Jumbotron-->`
+<!--./jumbotron-->
+
+<!--Gallery Section-->
+<section class="gallery-section p-3" id="gallery">
+  <div class="container-fluid p-3 p-md-5">
+        <!--section heading-->
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>Gallery</h2>
+                <hr>
+            </div>
+        </div>
+        <!--./section heading-->
+        <div class="row d-flex flex-wrap p-3 p-md-5">
+        <div class="artwork-row" id="display-1">
+            <div class="content">
+                <h2 class="artwork-title mt-3 mt-md-5">Title Here</h2>
+                <h3 class="artist-details">By Artsy Art</h3>
+                <h4 class="dates">1885 - 1920s</h4>
+                <p class="artwork-details">Lorem Ipsum  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              <div class="img my-3 my-md-5">
+                <img class="img-fluid art" src="https://images.pexels.com/photos/1193879/pexels-photo-1193879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+            <span style="display:inline-block;padding:2px 3px;">Caption Here</span></a>
+          </div>
+          </div>
+    </div>
+</div>
+</section>
+
     <!-- Bootstrap 5 JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
