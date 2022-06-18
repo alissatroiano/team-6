@@ -25,10 +25,9 @@ body {
 
 /*------------------------Navbar -----------*/
 
-.navbar-brand {
+a.navbar-brand {
   font-family: 'futura-pt', sans-serif;
-  letter-spacing: 1px;
-  font-size: 1.25rem;
+  letter-spacing: 2px;
 } 
 
 .navbar {
