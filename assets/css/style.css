@@ -95,7 +95,7 @@ body {
   
   img .art {
     max-width: 100%;
-    height: fit-content;
+    height: auto;
     vertical-align: middle;
     box-shadow: 0 0.2em 1.2em rgba(61,48,41,0.1);
   }
@@ -135,7 +135,7 @@ p {
       box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
       /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
     }
-    h2.project-heading {
+    h2.artwork-heading {
         grid-area: title;
         font-size: 3em;
         padding-top: var(--box-y-padding);
