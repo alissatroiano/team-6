@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600&display=swap');
+
+:root {
+  --box-x-padding: 2rem;
+  --box-y-padding: 2rem;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family:'Times New Roman', Times, serif;
     color: #000000;
     background-color: #ffffff;
     text-align: center;
 }
+
+/* ----------------------- Navigation*/
 #logo {
     float: left;
     font-size: 260%;
@@ -43,7 +58,6 @@ body {
     border-bottom: 1px dashed #000000;
     color: #dd7272;
 }
-
 
 /* ------------------------------------ Jumbotron */
 
@@ -91,3 +105,102 @@ p small {
     border-radius: 5px;    
     bottom: 0;
 }
+
+/* ----------------------- Gallery */
+
+.image {
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: -2rem;
+    opacity: 0.7;
+    animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+}
+
+.content a {
+    text-decoration: none;
+    border: 1px solid #b3b3b3;
+    border-radius: 1em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: inherit;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.417)
+  }
+  
+  .img {
+    position: relative;
+  }
+  
+  .img a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  img .art {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    box-shadow: 0 0.2em 1.2em rgba(61,48,41,0.1);
+  }
+  
+h2.artwork-title {
+    margin: 0 0 1rem;
+    font-family: serif;
+    position: relative;
+    font-size: 2rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: var(--box-y-padding);
+    line-height: 1.5;
+  }
+
+/* ----------------------- Media Queries */
+@media (min-width: 40em) {
+    .artwork-row {
+      display: grid;
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: 4fr 4fr 5fr;
+      grid-template-areas: '. . title' 'img img content' 'img img .';
+      max-width: 1000px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .artwork-row::after {
+      content: '';
+      grid-column: 2/-1;
+      grid-row: 1/3;
+      position: relative;
+      z-index: -1;
+      background-color: #eef6f79c;
+      /* box-shadow: 1px 3px 6px rgba(47, 47, 47, 0.38); */
+      box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
+      /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+    }
+    h2.artwork-heading {
+        grid-area: title;
+        font-size: 3em;
+        padding-top: var(--box-y-padding);
+        padding-left: var(--box-x-padding);
+      }
+      .content {
+        grid-area: content;
+        padding-bottom: var(--box-y-padding);
+        padding-left: var(--box-x-padding);
+        padding-right: var(--box-x-padding);
+      }
+      .img {
+        grid-area: img;
+      }
+    }
+
+@media (min-width: 60em) {
+    :root {
+      --box-x-padding: 3rem;
+      --box-y-padding: 6rem;
+    }
