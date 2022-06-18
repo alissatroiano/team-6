@@ -127,6 +127,13 @@ p {
     line-height: 1.5;
   }
 
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+    font-weight: 350;
+  }
 
 /* ----------------------- Media Queries */
 @media (min-width: 40em) {
