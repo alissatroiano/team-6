@@ -128,7 +128,7 @@ p {
   }
 
 
-#parallex-content {
+h2#parallex-content-1 {
   font-family: 'futura-pt', sans-serif; 
   font-weight: 300;
   padding: 20px;
@@ -138,6 +138,8 @@ p {
   text-align: center; /* For Edge */
   -moz-text-align-last: center; /* For Firefox prior 58.0 */
   text-align-last: center;
+  font-size: 5rem;
+
 }
 
 h3#parallex-content-2 {
@@ -146,7 +148,7 @@ h3#parallex-content-2 {
   letter-spacing: 1px;
   color: rgba(147, 147, 147, 0.997);
   text-shadow: 1px 3px 6px rgba(77, 77, 77, 0.22);
-  font-size: 1.2rem;
+  font-size: 1.52rem;
   line-height: 3.35rem;
   text-transform: uppercase;
 }
@@ -210,7 +212,6 @@ div.dark-sm {
     letter-spacing: 1px;
     color: #010b0e9f;
     text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.5);
-    font-size: 1.52rem;
     line-height: 3.35rem;
   }
 }
