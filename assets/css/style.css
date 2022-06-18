@@ -8,6 +8,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  background-color: #fafafa;
 }
 
 * {
@@ -16,16 +17,89 @@ body {
     border: none;
 }
 
-body {
-    font-family:'Times New Roman', Times, serif;
-    color: #000000;
-    background-color: #ffffff;
-    text-align: center;
+/* ----------------------- Global Styles & Custom Classes */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 6rem;
 }
 
-/* ----------------------- Navigation*/
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+
+}
+
+p {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.body-font {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  font-family: 'futura-pt', sans-serif;
+  text-decoration: none;
+  color: #3c87af;
+}
+
+.link-font {
+  font-family: 'futura-pt', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #3c87af;
+}
+
+a:hover,
+.link-font:hover {
+  color: #15394c;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 3.45px;
+  font-weight: 350;
+}
+
+.section-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:	#282828;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-shadow: 0px 4px 3px rgba(52, 52, 52, 0.4),
+  0px 8px 13px rgba(52, 52, 52,0.1),
+  0px 18px 23px rgba(52, 52, 52,0.1);
+}
+
+.small-text {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+}
+
+/* ----------------------- Navigation */
 #logo {
     float: left;
+    font-family: 'futura-pt', sans-serif;
     font-size: 260%;
     color: #0a0a0a;
     letter-spacing: 4px;
@@ -60,15 +134,16 @@ body {
 }
 
 /* ------------------------------------ Jumbotron */
-
 .center {
     text-align: center;
 }
 
-#gallery-section {
+#jumbotron-section {
     clear: both;
+    font-family: 'futura-pt', sans-serif;
     position: static;
-    height: 450px;
+    min-height: 100vh;
+    height: 100%;
     background-color: #cfe2f3;
     width: 100%;
 }
@@ -107,7 +182,6 @@ p small {
 }
 
 /* ----------------------- Gallery */
-
 .image {
     grid-row: 1;
     grid-column: 2;
@@ -159,6 +233,7 @@ p {
     margin-bottom: var(--box-y-padding);
     line-height: 1.5;
   }
+  
 
 /* ----------------------- Media Queries */
 @media (min-width: 40em) {
@@ -204,3 +279,4 @@ p {
       --box-x-padding: 3rem;
       --box-y-padding: 6rem;
     }
+  }
