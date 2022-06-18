@@ -183,15 +183,17 @@ h3#parallex-content-2 {
 div.dark,
 div.dark-sm {
   font-family: 'futura-pt', sans-serif; 
-  font-size: 20px;
+  font-size: 18.5px;
+  letter-spacing: 2.3px;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: -1px;
+  letter-spacing: 3.45px;
   font-weight: 350;
 }
 
