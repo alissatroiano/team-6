@@ -43,3 +43,51 @@ body {
     border-bottom: 1px dashed #000000;
     color: #dd7272;
 }
+
+
+/* ------------------------------------ Jumbotron */
+
+.center {
+    text-align: center;
+}
+
+#gallery-section {
+    clear: both;
+    position: static;
+    height: 450px;
+    background-color: #cfe2f3;
+    width: 100%;
+}
+
+.display-4 {
+    position: relative;
+    margin-top: 25px;
+    height: 80px;
+}
+
+p small {
+    position: relative;
+    height: 100px;
+}
+
+.gallery-button {
+    height: 250px;
+}
+
+.gallery-button p {
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
+
+.gallery-button p a {
+    position: relative;
+    margin-top: 100px;
+}
+
+.jumbotron .btn {
+    position: relative;
+    border: 1px solid #f0ad4e;
+    border-radius: 5px;    
+    bottom: 0;
+}
