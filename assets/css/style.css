@@ -233,7 +233,37 @@ p {
     margin-bottom: var(--box-y-padding);
     line-height: 1.5;
   }
-  
+
+/* ----------------------- Modal */
+.resources li {
+    list-style-type: none;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.resources a:hover {
+    border-bottom: 1px dashed #000000;
+    color: #dd7272;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+    background-image: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red);
+    padding: 3px;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    background-color: #ffffff;
+    border-radius: 0 !important;
+}
+
+.modal-body {
+    background-color: #ffffff;
+}
 
 /* ----------------------- Media Queries */
 @media (min-width: 40em) {
