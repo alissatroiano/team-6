@@ -48,8 +48,8 @@
     <!-- Jumbotron -->
     <section id="jumbotron-section" class="container-fluid">
         <div class="row">
-            <div class="col">
-                <div class="jumbotron">
+            <div class="col-12 my-3">
+                <div class="jumbotron mt-3 mt-md-5">
                     <h1 class="display-4 center">INKLUSION</h1>
                     <p class="lead center"><small>A virtual tour of LGBTQIA+ art throughout history.</small></p>
                 </div>
@@ -74,9 +74,26 @@
                     <h2 class="section-header">Gallery</h2>
                     <hr>
                 </div>
+                <div class="col-6">
+                    <!-- Back to top button -->
+<button
+type="button"
+class="btn btn-custom btn-floating btn-lg"
+id="btn-back-to-top"
+>
+<i class="fas fa-chevron-up"></i>
+</button>
+                    <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#claude-cahun">Claude Cahun</a></li>
+                          <li class="breadcrumb-item"><a href="#gluck">Gluck</a></li>
+                        </ol>
+                      </nav>
+                </div>
             </div>
             <!--./section heading-->
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            
+            <div class="row d-flex flex-wrap p-3 p-md-5" id="claude-cahun">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Que me veux tu?</h2>
@@ -95,7 +112,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            <br>
+            <div class="row d-flex flex-wrap p-3 p-md-5" id="gluck">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Medallion</h2>
@@ -161,8 +179,8 @@
                             Bacon was gay and spent a number of years with Londoner George Dyer. He created a number of
                             artworks of Dyer including this painting.</p>
                     </div>
-                    <div class="img my-3 my-md-5">
-                        <img class="img-fluid art" src="assets/images/portrait-of-george-dyer-in-a-mirror.webp"
+                    <div class="img">
+                        <img class="img-fluid art" src="assets/images/george-dyer.png"
                             alt="Image of Portrait of George Dyer in a Mirror by Francis Bacon">
                         <span style="display:inline-block;padding:2px 3px;">1968, The Estate of Francis Bacon</span></a>
                     </div>

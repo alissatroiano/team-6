@@ -17,59 +17,7 @@ body {
     border: none;
 }
 
-/* ----------------------- Global Styles & Custom Classes */
-
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  line-height: 1.5;
-  font-size: 6rem;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Playfair Display', serif;
-
-}
-
-p {
-  font-family: 'futura-pt', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 2rem;
-}
-
-.body-font {
-  font-family: 'futura-pt', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-a {
-  font-family: 'futura-pt', sans-serif;
-  text-decoration: none;
-  color: #3c87af;
-}
-
-.link-font {
-  font-family: 'futura-pt', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1rem;
-  text-decoration: none;
-  color: #3c87af;
-}
-
-a:hover,
-.link-font:hover {
-  color: #15394c;
-}
-
+/* ----------------------- Global Styles */
 .rainbow-text {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
@@ -78,23 +26,6 @@ a:hover,
   font-weight: 350;
 }
 
-.section-header {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  font-weight: 600;
-  color:	#282828;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  text-shadow: 0px 4px 3px rgba(52, 52, 52, 0.4),
-  0px 8px 13px rgba(52, 52, 52,0.1),
-  0px 18px 23px rgba(52, 52, 52,0.1);
-}
-
-.small-text {
-  font-family: 'futura-pt', sans-serif;
-  font-size: 1rem;
-}
 
 /* ----------------------- Navigation */
 #logo {
@@ -150,7 +81,6 @@ a:hover,
 
 .display-4 {
     position: relative;
-    margin-top: 25px;
     height: 80px;
 }
 
@@ -203,10 +133,12 @@ p small {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.417)
   }
-  
-  .img {
+    
+.img {
     position: relative;
-  }
+    max-width: 100%;
+    height: auto;
+}
   
   .img a {
     position: absolute;
@@ -215,8 +147,6 @@ p small {
   }
   
   img .art {
-    max-width: 100%;
-    height: auto;
     vertical-align: middle;
     box-shadow: 0 0.2em 1.2em rgba(61,48,41,0.1);
   }
@@ -233,7 +163,13 @@ p {
     margin-bottom: var(--box-y-padding);
     line-height: 1.5;
   }
-  
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 1px 4px 8px rgb(47, 47, 47);
+  }
 
 /* ----------------------- Media Queries */
 @media (min-width: 40em) {
