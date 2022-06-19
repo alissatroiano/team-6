@@ -114,30 +114,30 @@ a:hover,
 }
 
 .btn-modal {
-  font-size: 110% !important;
-  color: #000000 !important;
-  font-family: 'futura-pt', sans-serif !important;
-  border: none !important;
-  padding: 8px !important;
+  font-size: 110%;
+  color: #000000;
+  font-family: 'futura-pt', sans-serif;
+  border: none;
+  padding: 8px 0px;
 }
 
-.navbar li {
+.navbar li, .btn-modal {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 
 .gallery-dropdown {
-    position: initial !important;
+    position: initial;
 }
 
 .gallery-dropdown-menu {
-    width: 100% !important;
-    border-radius: 0 !important;
-    background-color: #fafafa !important;
+    width: 100%;
+    border-radius: 0;
+    background-color: #fafafa;
 }
 
 .dropdown-item, .dropdown-item:hover {
-    background-color: #fafafa !important;
+    background-color: #fafafa;
 }
 
 /* ------------------------------------ Jumbotron */
@@ -263,15 +263,15 @@ p {
 }
 
 .modal-content {
-  border-radius: 0 !important;
+  border-radius: 0;
   background-image: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red);
   padding: 3px;
 }
 
 .modal-header {
-    border-bottom: none !important;
-    background-color: #fafafa !important;
-    border-radius: 0 !important;
+    border-bottom: none;
+    background-color: #fafafa;
+    border-radius: 0;
 }
 
 .modal-body {
@@ -414,3 +414,9 @@ footer {
     text-transform: uppercase;
   }
 }
+
+@media screen and (min-width: 992px) {
+    .btn-modal {
+      padding: 8px;
+    }
+  }
