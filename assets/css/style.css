@@ -338,6 +338,9 @@ footer {
   border-top: 5px solid #fcb900;
 }
 
+footer p {
+  margin: 0;
+}
 
 /* ------------------------------------- Font Awesome */
 .fa-brands, .fab {
