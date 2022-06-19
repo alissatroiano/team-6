@@ -44,7 +44,7 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 The following wireframes were created to help plan the layout of the site:
 
-* [Homepage](/workspace/team-6/docs/wireframes/hackathon_wireframes.png)
+* [Homepage](docs/wireframes/hackathon_wireframes.pdf)
 * [another page](path to file)
 
 ## Features
@@ -63,11 +63,13 @@ The following wireframes were created to help plan the layout of the site:
 * Logo is located at the top left of the home page for easy access.
 * Clicking on the logo will bring the user back to the home page. 
 
-![Website Theme Logo](/workspace/team-6/docs/screenshots/Home Logo.jpeg)
+![Website Theme Logo](/docs/screenshots/Home-Logo.jpeg)
 
 ### Features Left to Implement
 
-* Describe some features that we would like to implement in the future
+* A constantly updating showcase of current and up-and-coming LGBTQIA+ artists.
+* A directory of LGBTQIA+ creatives with the option to contact them and buy art work.
+* A forum for LGBTQIA+ art lovers to meet and discuss art.
 
 ## Technologies Used
 
@@ -113,6 +115,22 @@ The following steps can be used to clone the GitHub repository:
 * Press 'Enter' to create the clone.
 
 ## Credits
+
+* Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+Add the below to the media credits section:
+* Claud Cahun's Que me veut tu? is owned by the [Musee d'Art Modern](https://www.mam.paris.fr/en).
+* Gluck's Medallion is found in a Private Collection (photo by Christie's Images).
+* Beauford Delaney's Can Fire in the Park is owned by the [Smithsonian American Art Museum](https://americanart.si.edu/).
+* Frida Kahlo's Las dos Fridas is owned by the [Museo de Arte Moderno](https://mam.inba.gob.mx/).
+* Copyright for Francis Bacon's portrait of George Dyer in a Mirror is owned by the Estate of Francis Bacon.
+* Copyright for Andy Warhol's Brillo Box is owned by the Andy Warhol Foundation for the Visual Arts.
+* Robert Mapplethorpe's Self Portrait is owned by the [Solomon R. Guggenheim Museum](https://www.guggenheim.org/).
+* Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
+* Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
+* Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
+
+
+
 
 ### Code
 
