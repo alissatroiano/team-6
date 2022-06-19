@@ -8,6 +8,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  background-color: #fafafa;
 }
 
 * {
@@ -16,65 +17,153 @@ body {
     border: none;
 }
 
-body {
-    font-family:'Times New Roman', Times, serif;
-    color: #000000;
-    background-color: #ffffff;
-    text-align: center;
+/* ----------------------- Global Styles & Custom Classes */
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 6rem;
 }
 
-/*------------------------Navbar -----------*/
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
 
-.navbar-brand {
+}
+
+p {
   font-family: 'futura-pt', sans-serif;
-  letter-spacing: 1px;
-  font-size: 1.25rem;
-} 
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
 
-.navbar {
+.body-font {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  font-family: 'futura-pt', sans-serif;
+  text-decoration: none;
+  color: #3c87af;
+}
+
+.link-font {
   font-family: 'futura-pt', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #3c87af;
 }
 
-/* ----------------------- Navigation*/
+a:hover,
+.link-font:hover {
+  color: #15394c;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 3.45px;
+  font-weight: 350;
+}
+
+.section-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:	#282828;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-shadow: 0px 4px 3px rgba(52, 52, 52, 0.4),
+  0px 8px 13px rgba(52, 52, 52,0.1),
+  0px 18px 23px rgba(52, 52, 52,0.1);
+}
+
+.small-text {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+}
+
+/* ----------------------- Navigation */
 #logo {
     float: left;
+    font-family: 'futura-pt', sans-serif;
     font-size: 260%;
     color: #0a0a0a;
     letter-spacing: 4px;
 }
-
-#navbar {
-    font-size: 110%;
-    letter-spacing: 2px;
-    margin:0 10px 0 10px;
+.navbar a{
+  font-size:110%;
+  color:#000000;
 }
 
-#navbar,
-#logo {
-    line-height: 75px;
+.btn-modal {
+    font-size:110% !important;
+    color:#000000 !important;
+    font-family: 'futura-pt', sans-serif !important;
+    border: none !important;
+    padding: 8px !important;
 }
 
-#navbar li {
-    float: right;
-    list-style-type: none;
-    margin-left: 10px;
-    padding: 0;
+/* ------------------------------------ Jumbotron */
+.center {
+    text-align: center;
 }
 
-#navbar a {
-    text-decoration: none;
-    color:#000000;
+#jumbotron-section {
+    clear: both;
+    font-family: 'futura-pt', sans-serif;
+    position: static;
+    height: 100%;
+    width: 100%;
 }
 
-#navbar a:hover {
-    border-bottom: 1px dashed #000000;
-    color: #dd7272;
+.display-4 {
+    position: relative;
+    margin-top: 25px;
+    height: 80px;
+}
+
+p small {
+    position: relative;
+    height: 100px;
+}
+
+.gallery-button {
+    height: 250px;
+}
+
+.gallery-button p {
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
+
+.gallery-button p a {
+    position: relative;
+    margin-top: 100px;
+}
+
+.jumbotron .btn {
+    position: relative;
+    border: 1px solid #f0ad4e;
+    border-radius: 5px;    
+    bottom: 0;
 }
 
 /* ----------------------- Gallery */
-
 .image {
     grid-row: 1;
     grid-column: 2;
@@ -109,7 +198,7 @@ body {
   
   img .art {
     max-width: 100%;
-    height: fit-content;
+    height: auto;
     vertical-align: middle;
     box-shadow: 0 0.2em 1.2em rgba(61,48,41,0.1);
   }
@@ -127,30 +216,35 @@ p {
     line-height: 1.5;
   }
 
-
-h2#parallex-content-1 {
-  font-family: 'futura-pt', sans-serif; 
-  font-weight: 300;
-  padding: 20px;
-  line-height: 3.35rem;
-  color: #010b0e9f;
-  text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.5);
-  text-align: center; /* For Edge */
-  -moz-text-align-last: center; /* For Firefox prior 58.0 */
-  text-align-last: center;
-  font-size: 5rem;
-
+/* ----------------------- Modal */
+.resources li {
+    list-style-type: none;
 }
 
-h3#parallex-content-2 {
-  font-family: 'futura-pt', sans-serif; 
-  font-weight: 200;
-  letter-spacing: 1px;
-  color: rgba(147, 147, 147, 0.997);
-  text-shadow: 1px 3px 6px rgba(77, 77, 77, 0.22);
-  font-size: 1.52rem;
-  line-height: 3.35rem;
-  text-transform: uppercase;
+.resources a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.resources a:hover {
+    border-bottom: 1px dashed #000000;
+    color: #dd7272;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+    background-image: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red);
+    padding: 3px;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    background-color: #ffffff;
+    border-radius: 0 !important;
+}
+
+.modal-body {
+    background-color: #ffffff;
 }
 
 /* -------------------- About */
@@ -189,112 +283,147 @@ div.dark-sm {
   text-transform: uppercase;
 }
 
-.rainbow-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 3.45px;
-  font-weight: 350;
-}
+/* ------------------------------------- Team page */
+  div .card {
+    border: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
 
-@media screen and (min-width: 768px) {
-  #parallex-content {
-    font-family: 'futura-pt', sans-serif; 
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: #010b0e9f;
-    text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.5);
-    font-size: 3rem;
-    line-height: 3.35rem;
-    text-transform: uppercase;
+  .team img {
+    width: 280px;
+    height: 280px;
+    border-radius:50% ;
   }
-   #parallex-content-2 {
-    font-family: 'futura-pt', sans-serif; 
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: #010b0e9f;
-    text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.5);
-    line-height: 3.35rem;
-  }
-}
 
-@media screen and (min-width: 1024px) {
-  #parallex-content {
-    font-family: 'futura-pt', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 2.1rem;
-    line-height: 2;
-    font-weight: 200;
-    color: #04181e8b;
-    text-shadow: 0px 0px 6px rgba(41, 41, 41, 0.51);
+  #team-card img {
+    border: 5px solid #cf2e2e;
   }
-  #parallex-content-2 {
-    font-family: 'futura-pt', sans-serif; 
-    font-weight: 300;
-    letter-spacing: 1px;
-    color: #010b0e9f;
-    text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.51);
-    font-size: 2.1rem;
-    line-height: 2;
-}
-#bg,
-#bg2 {
-  background-image: url('../images/bg.png');
-  background-repeat: no-repeat;
-  height: 650px;
-  max-width: 100%;
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
+  #team-card-1 img {
+    border: 5px solid #ff6900;    
+  }
+
+  #team-card-2 img {
+    border: 5px solid #fcb900;    
+  }
+
+  #team-card-3 img {
+    border: 5px solid #00d084;    
+  }
+
+  #team-card-4 img {
+    border: 5px solid #0693e3;    
+  }
+
+  .card-img-top {
+    align-self: center;
+  }
+ 
+  
+/* -------------------------------- Footer */
+footer{
+  border-top: 5px solid #fcb900;
 }
 
 
 /* ----------------------- Media Queries */
 @media (min-width: 40em) {
-    .artwork-row {
-      display: grid;
-      grid-template-rows: repeat(3, auto);
-      grid-template-columns: 4fr 4fr 5fr;
-      grid-template-areas: '. . title' 'img img content' 'img img .';
-      max-width: 1000px;
-      margin-right: auto;
-      margin-left: auto;
+  .artwork-row {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 4fr 4fr 5fr;
+    grid-template-areas: '. . title' 'img img content' 'img img .';
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .artwork-row::after {
+    content: '';
+    grid-column: 2/-1;
+    grid-row: 1/3;
+    position: relative;
+    z-index: -1;
+    background-color: #eef6f79c;
+    /* box-shadow: 1px 3px 6px rgba(47, 47, 47, 0.38); */
+    box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  }
+  h2.artwork-heading {
+      grid-area: title;
+      font-size: 3em;
+      padding-top: var(--box-y-padding);
+      padding-left: var(--box-x-padding);
     }
-    .artwork-row::after {
-      content: '';
-      grid-column: 2/-1;
-      grid-row: 1/3;
-      position: relative;
-      z-index: -1;
-      background-color: #7ea1a66f;
-      /* box-shadow: 1px 3px 6px rgba(47, 47, 47, 0.38); */
-      box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(126, 126, 126, 0.932) 0px 3px 28px;
-      /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+    .content {
+      grid-area: content;
+      padding-bottom: var(--box-y-padding);
+      padding-left: var(--box-x-padding);
+      padding-right: var(--box-x-padding);
     }
-    h2.project-heading {
-        grid-area: title;
-        font-size: 3em;
-        padding-top: var(--box-y-padding);
-        padding-left: var(--box-x-padding);
-      }
-      .content {
-        grid-area: content;
-        padding-bottom: var(--box-y-padding);
-        padding-left: var(--box-x-padding);
-        padding-right: var(--box-x-padding);
-      }
-      .img {
-        grid-area: img;
-      }
-    }
-
-@media (min-width: 60em) {
-    :root {
-      --box-x-padding: 3rem;
-      --box-y-padding: 6rem;
+    .img {
+      grid-area: img;
     }
   }
+
+@media (min-width: 60em) {
+  :root {
+    --box-x-padding: 3rem;
+    --box-y-padding: 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+#parallex-content {
+  font-family: 'futura-pt', sans-serif; 
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #010b0e9f;
+  text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.5);
+  font-size: 3rem;
+  line-height: 3.35rem;
+  text-transform: uppercase;
+}
+ #parallex-content-2 {
+  font-family: 'futura-pt', sans-serif; 
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #010b0e9f;
+  text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.5);
+  line-height: 3.35rem;
+}
+}
+
+@media screen and (min-width: 1024px) {
+#parallex-content {
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 2.1rem;
+  line-height: 2;
+  font-weight: 200;
+  color: #04181e8b;
+  text-shadow: 0px 0px 6px rgba(41, 41, 41, 0.51);
+}
+#parallex-content-2 {
+  font-family: 'futura-pt', sans-serif; 
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #010b0e9f;
+  text-shadow: 1px 3px 6px rgba(103, 103, 103, 0.51);
+  font-size: 2.1rem;
+  line-height: 2;
+}
+#bg,
+#bg2 {
+background-image: url('../images/bg.png');
+background-repeat: no-repeat;
+height: 650px;
+max-width: 100%;
+min-height: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+}
