@@ -126,6 +126,20 @@ a:hover,
   letter-spacing: 1.5px;
 }
 
+.gallery-dropdown {
+    position: initial !important;
+}
+
+.gallery-dropdown-menu {
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-color: #fafafa !important;
+}
+
+.dropdown-item, .dropdown-item:hover {
+    background-color: #fafafa !important;
+}
+
 /* ------------------------------------ Jumbotron */
 .center {
   text-align: center;
@@ -255,9 +269,9 @@ p {
 }
 
 .modal-header {
-  border-bottom: none !important;
-  background-color: #ffffff;
-  border-radius: 0 !important;
+    border-bottom: none !important;
+    background-color: #fafafa !important;
+    border-radius: 0 !important;
 }
 
 .modal-body {
