@@ -8,13 +8,12 @@
 html,
 body {
   scroll-behavior: smooth;
-  background-color: #fafafa;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* ----------------------- Global Styles & Custom Classes */
@@ -50,6 +49,10 @@ p {
   line-height: 1.5;
 }
 
+.txt-shadow {
+  text-shadow: 0 13.36px 8.896px #58585879, 0 -2px 1px #9b9b9bd4;
+}
+
 a {
   font-family: 'futura-pt', sans-serif;
   text-decoration: none;
@@ -75,20 +78,20 @@ a:hover,
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 3.45px;
-  font-weight: 350;
+  font-weight: 400;
 }
 
 .section-header {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   font-weight: 600;
-  color:	#282828;
+  color: #282828;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
   text-shadow: 0px 4px 3px rgba(52, 52, 52, 0.4),
-  0px 8px 13px rgba(52, 52, 52,0.1),
-  0px 18px 23px rgba(52, 52, 52,0.1);
+    0px 8px 13px rgba(52, 52, 52, 0.1),
+    0px 18px 23px rgba(52, 52, 52, 0.1);
 }
 
 .small-text {
@@ -98,235 +101,242 @@ a:hover,
 
 /* ----------------------- Navigation */
 #logo {
-    float: left;
-    font-family: 'futura-pt', sans-serif;
-    font-size: 260%;
-    color: #0a0a0a;
-    letter-spacing: 4px;
-}
-.navbar a{
-  font-size:110%;
-  color:#000000;
+  float: left;
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  letter-spacing: 4px;
 }
 
+.navbar a {
+  font-size: 110%;
+  color: #000000;
+}
+
+.btn-modal {
+  font-size: 110%;
+  color: #000000;
+  font-family: 'futura-pt', sans-serif;
+  border: none;
+  padding: 8px 0px;
+}
+
+.navbar li, .btn-modal {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.gallery-dropdown {
+    position: initial;
+}
+
+.gallery-dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    background-color: #fafafa;
+}
+
+.dropdown-item, .dropdown-item:hover {
+    background-color: #fafafa;
+}
 
 /* ------------------------------------ Jumbotron */
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 #jumbotron-section {
-    clear: both;
-    font-family: 'futura-pt', sans-serif;
-    position: static;
-    min-height: 100vh;
-    height: 100%;
-    background-color: #cfe2f3;
-    width: 100%;
+  clear: both;
+  font-family: 'futura-pt', sans-serif;
+  position: static;
+  height: 100%;
+  width: 100%;
+}
+
+#jumbotron-title {
+  font-family: 'futura-pt', sans-serif;
+  color: #0a0a0ae9;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  font-weight: 400;
 }
 
 .display-4 {
-    position: relative;
-    margin-top: 25px;
-    height: 80px;
+  position: relative;
+  margin-top: 25px;
+  height: 80px;
 }
 
 p small {
-    position: relative;
-    height: 100px;
+  position: relative;
+  height: 100px;
 }
 
 .gallery-button {
-    height: 250px;
+  height: 250px;
 }
 
 .gallery-button p {
-    height: 200px;
-    position: relative;
-    bottom: 0;
+  height: 200px;
+  position: relative;
+  bottom: 0;
 }
 
 .gallery-button p a {
-    position: relative;
-    margin-top: 100px;
+  position: relative;
+  margin-top: 100px;
 }
 
 .jumbotron .btn {
-    position: relative;
-    border: 1px solid #f0ad4e;
-    border-radius: 5px;    
-    bottom: 0;
+  position: relative;
+  border: 1px solid #f0ad4e;
+  border-radius: 5px;
+  bottom: 0;
 }
 
 /* ----------------------- Gallery */
 .image {
-    grid-row: 1;
-    grid-column: 2;
-    margin-left: -2rem;
-    opacity: 0.7;
-    animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
+  grid-row: 1;
+  grid-column: 2;
+  margin-left: -2rem;
+  opacity: 0.7;
+  animation: image-in 1s cubic-bezier(0.5, 0, 0.1, 1) 2s backwards;
 }
 
 .content a {
-    text-decoration: none;
-    border: 1px solid #b3b3b3;
-    border-radius: 1em;
-    padding: 1em 2em;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: inherit;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.417)
-  }
-  
-  .img {
-    position: relative;
-  }
-  
-  .img a {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-  }
-  
-  img .art {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    box-shadow: 0 0.2em 1.2em rgba(61,48,41,0.1);
-  }
-  
+  text-decoration: none;
+  border: 1px solid #b3b3b3;
+  border-radius: 1em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: inherit;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.417)
+}
+
+.img {
+  position: relative;
+}
+
+.img a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+img .art {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  box-shadow: 0 0.2em 1.2em rgba(61, 48, 41, 0.1);
+}
+
 h2.artwork-title {
-    margin: 0 0 1rem;
-    font-family: serif;
-    position: relative;
-    font-size: 2rem;
+  margin: 0 0 1rem;
+  font-family: serif;
+  position: relative;
+  font-size: 2rem;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: var(--box-y-padding);
-    line-height: 1.5;
-  }
+  margin-top: 0;
+  margin-bottom: var(--box-y-padding);
+  line-height: 1.5;
+}
 
 /* ----------------------- Modal */
 .resources li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .resources a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 .resources a:hover {
-    border-bottom: 1px dashed #000000;
-    color: #dd7272;
+  border-bottom: 1px dashed #000000;
+  color: #dd7272;
 }
 
 .modal-content {
-    border-radius: 0 !important;
-    background-image: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red);
-    padding: 3px;
+  border-radius: 0;
+  background-image: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red);
+  padding: 3px;
 }
 
 .modal-header {
-    border-bottom: none !important;
-    background-color: #ffffff;
-    border-radius: 0 !important;
+    border-bottom: none;
+    background-color: #fafafa;
+    border-radius: 0;
 }
 
 .modal-body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-/* ----------------------- Media Queries */
-@media (min-width: 40em) {
-    .artwork-row {
-      display: grid;
-      grid-template-rows: repeat(3, auto);
-      grid-template-columns: 4fr 4fr 5fr;
-      grid-template-areas: '. . title' 'img img content' 'img img .';
-      max-width: 1000px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-    .artwork-row::after {
-      content: '';
-      grid-column: 2/-1;
-      grid-row: 1/3;
-      position: relative;
-      z-index: -1;
-      background-color: #eef6f79c;
-      /* box-shadow: 1px 3px 6px rgba(47, 47, 47, 0.38); */
-      box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
-      /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
-    }
-    h2.artwork-heading {
-        grid-area: title;
-        font-size: 3em;
-        padding-top: var(--box-y-padding);
-        padding-left: var(--box-x-padding);
-      }
-      .content {
-        grid-area: content;
-        padding-bottom: var(--box-y-padding);
-        padding-left: var(--box-x-padding);
-        padding-right: var(--box-x-padding);
-      }
-      .img {
-        grid-area: img;
-      }
-    }
+/* -------------------- About */
+#jumbotron-section {
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-@media (min-width: 60em) {
-    :root {
-      --box-x-padding: 3rem;
-      --box-y-padding: 6rem;
-    }
-  }
+.text-main.hero-fade,
+div.dark,
+div.dark-sm {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
 
-  /* ------------------------------------- Team page */
+/* ------------------------------------- Team page */
+div .card {
+  border: none;
+  margin-right: 0;
+  margin-left: 0;
+}
 
-  div .card {
-    border: none;
-    margin-right: 0;
-    margin-left: 0;
-  }
+.team img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
 
-  .team img {
-    width: 280px;
-    height: 280px;
-    border-radius:50% ;
-  }
+#team-card img {
+  border: 5px solid #cf2e2e;
+}
 
-  #team-card img {
-    border: 5px solid #cf2e2e;
-  }
+#team-card-1 img {
+  border: 5px solid #ff6900;
+}
 
-  #team-card-1 img {
-    border: 5px solid #ff6900;    
-  }
+#team-card-2 img {
+  border: 5px solid #fcb900;
+}
 
-  #team-card-2 img {
-    border: 5px solid #fcb900;    
-  }
+#team-card-3 img {
+  border: 5px solid #00d084;
+}
 
-  #team-card-3 img {
-    border: 5px solid #00d084;    
-  }
+#team-card-4 img {
+  border: 5px solid #0693e3;
+}
 
-  #team-card-4 img {
-    border: 5px solid #0693e3;    
-  }
+.card-img-top {
+  align-self: center;
+}
 
-  .card-img-top {
-    align-self: center;
-  }
- 
-  
+
 /* ------------------------------------- Footer */
 footer{
   border-top: 5px solid #fcb900;
@@ -340,3 +350,81 @@ footer{
   font-weight: 600;
   font-size: xx-large;
 }
+
+/* ----------------------- Media Queries */
+@media (min-width: 40em) {
+  .artwork-row {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 4fr 4fr 5fr;
+    grid-template-areas: '. . title''img img content''img img .';
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .artwork-row::after {
+    content: '';
+    grid-column: 2/-1;
+    grid-row: 1/3;
+    position: relative;
+    z-index: -1;
+    background-color: #eef6f79c;
+    /* box-shadow: 1px 3px 6px rgba(47, 47, 47, 0.38); */
+    box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  }
+
+  h2.artwork-heading {
+    grid-area: title;
+    font-size: 3em;
+    padding-top: var(--box-y-padding);
+    padding-left: var(--box-x-padding);
+  }
+
+  .content {
+    grid-area: content;
+    padding-bottom: var(--box-y-padding);
+    padding-left: var(--box-x-padding);
+    padding-right: var(--box-x-padding);
+  }
+
+  .img {
+    grid-area: img;
+  }
+}
+
+@media (min-width: 60em) {
+  :root {
+    --box-x-padding: 3rem;
+    --box-y-padding: 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #jumbotron-title {
+    font-family: 'futura-pt', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+
+  #jumbotron-icon {
+    font-size: 5rem;
+  }
+
+  .text-main.hero-fade,
+  div.dark,
+  div.dark-sm {
+    font-family: 'futura-pt', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 992px) {
+    .btn-modal {
+      padding: 8px;
+    }
+  }
