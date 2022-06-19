@@ -29,8 +29,7 @@
 ## Introduction
 
 This is a website providing information about LGBTQIA+ art throughout history. In keeping with Pride 2022 Theme: Togetherness, this website provides information on famous LGBTQA+ artists along with photo representation of a quintessential art piece from their repertoire. The website also provides information on local LGBTQA+ artists and how they can be contacted. The site is targeted towards not just the LGBTQA+ community, but to those interested in expanding their knowledge of art and looking to support local LGBTQA+ artists by adding to their art collection. 
-[The live project can be found here.]
-(https://8000-alissatroiano-team6-tnji43u87lz.ws-eu47.gitpod.io/index.html)
+[The live project can be found here.](https://alissatroiano.github.io/team-6/)
 ## UX
 
 ### User Stories
@@ -45,26 +44,26 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 The following wireframes were created to help plan the layout of the site:
 
-* [Homepage](path to file)
+* [Homepage](/workspace/team-6/docs/wireframes/hackathon_wireframes.png)
 * [another page](path to file)
 
 ## Features
 
 ### Existing Features
 
-#### Name of feature
+#### Navigation Bar
 
-* Description of feature and benefit
-* Description of feature and benefit
+* Located concisely at the top right of every page 
+* The user can easily navigate to different sections of the site with ease. 
 
-![Feature Name](image path)
+![Navigation Bar](docs/screenshots/Nav-Home.jpeg)
 
-#### Name of feature
+#### Website Theme Logo
 
-* Description of feature and benefit
-* Description of feature and benefit
+* Logo is located at the top left of the home page for easy access.
+* Clicking on the logo will bring the user back to the home page. 
 
-![Feature Name](image path)
+![Website Theme Logo](/workspace/team-6/docs/screenshots/Home Logo.jpeg)
 
 ### Features Left to Implement
 
