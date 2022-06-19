@@ -34,16 +34,51 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-label="Go to the homepage" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                        <li class="nav-item gallery-dropdown dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="galleryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Gallery
+                            </a>
+                            <div class="gallery-dropdown-menu dropdown-menu" aria-labelledby="galleryDropdown">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Claude Cahun artwork" href="#">Claude Cahun</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Gluck artwork" href="#">Gluck</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Beauford Delaney artwork" href="#">Beauford Delaney</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Frida Kahlo artwork" href="#">Frida Kahlo</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Francis Bacon artwork" href="#">Francis Bacon</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Andy Warhol artwork" href="#">Andy Warhol</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Robert Mapplethorpe artwork" href="#">Robert Mapplethorpe</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Keith Haring artwork" href="#">Keith Haring</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Catherine Opie artwork" href="#">Catherine Opie</a>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3 col-lg-2">
+                                            <a class="dropdown-item" aria-label="Go to the Zanele Muholi artwork" href="#">Zanele Muholi</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item" >
-                            <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item" >
-                            <a class="nav-link" href="team.html">Team</a>
+                            <a class="nav-link" aria-label="Go to the team page" href="team.html">Team</a>
                         </li>
                         <li>
                             <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#resourceModal">Get Involved</button>
@@ -286,7 +321,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Whether you're a LGBTQIA+ artist youself or are keen to meet and support those who are, the
+                    <p class="mb-1">Whether you're a LGBTQIA+ artist youself or are keen to meet and support those who are, the
                         below sites are a great way to start connecting with the LGBTQIA+ creative community.</p>
                     <ul class="resources">
                         <li>
