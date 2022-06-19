@@ -28,8 +28,9 @@
 
 ## Introduction
 
-Some introductory text about the site and its goals.
-
+This is a website providing information about LGBTQIA+ art throughout history. In keeping with Pride 2022 Theme: Togetherness, this website provides information on famous LGBTQA+ artists along with photo representation of a quintessential art piece from their repertoire. The website also provides information on local LGBTQA+ artists and how they can be contacted. The site is targeted towards not just the LGBTQA+ community, but to those interested in expanding their knowledge of art and looking to support local LGBTQA+ artists by adding to their art collection. 
+[The live project can be found here.]
+(https://8000-alissatroiano-team6-tnji43u87lz.ws-eu47.gitpod.io/index.html)
 ## UX
 
 ### User Stories
