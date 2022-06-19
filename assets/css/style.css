@@ -109,6 +109,13 @@ a:hover,
   color:#000000;
 }
 
+.btn-modal {
+    font-size:110% !important;
+    color:#000000 !important;
+    font-family: 'futura-pt', sans-serif !important;
+    border: none !important;
+    padding: 8px !important;
+}
 
 /* ------------------------------------ Jumbotron */
 .center {
