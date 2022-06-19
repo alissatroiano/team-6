@@ -117,6 +117,20 @@ a:hover,
     padding: 8px !important;
 }
 
+.gallery-dropdown {
+    position: initial;
+}
+
+.gallery-dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    background-color: #fafafa;
+}
+
+.dropdown-item, .dropdown-item:hover {
+    background-color: #fafafa;
+}
+
 /* ------------------------------------ Jumbotron */
 .center {
     text-align: center;
