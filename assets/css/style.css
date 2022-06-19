@@ -327,7 +327,16 @@ p {
   }
  
   
-/* -------------------------------- Footer */
+/* ------------------------------------- Footer */
 footer{
   border-top: 5px solid #fcb900;
+}
+
+
+/* ------------------------------------- Font Awesome */
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 600;
+  font-size: xx-large;
 }
