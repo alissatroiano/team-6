@@ -118,17 +118,17 @@ a:hover,
 }
 
 .gallery-dropdown {
-    position: initial;
+    position: initial !important;
 }
 
 .gallery-dropdown-menu {
-    width: 100%;
-    border-radius: 0;
-    background-color: #fafafa;
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-color: #fafafa !important;
 }
 
 .dropdown-item, .dropdown-item:hover {
-    background-color: #fafafa;
+    background-color: #fafafa !important;
 }
 
 /* ------------------------------------ Jumbotron */
@@ -255,7 +255,7 @@ p {
 
 .modal-header {
     border-bottom: none !important;
-    background-color: #ffffff;
+    background-color: #fafafa !important;
     border-radius: 0 !important;
 }
 
