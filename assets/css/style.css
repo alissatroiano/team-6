@@ -104,34 +104,11 @@ a:hover,
     color: #0a0a0a;
     letter-spacing: 4px;
 }
-
-#navbar {
-    font-size: 110%;
-    letter-spacing: 2px;
-    margin:0 10px 0 10px;
+.navbar a{
+  font-size:110%;
+  color:#000000;
 }
 
-#navbar,
-#logo {
-    line-height: 75px;
-}
-
-#navbar li {
-    float: right;
-    list-style-type: none;
-    margin-left: 10px;
-    padding: 0;
-}
-
-#navbar a {
-    text-decoration: none;
-    color:#000000;
-}
-
-#navbar a:hover {
-    border-bottom: 1px dashed #000000;
-    color: #dd7272;
-}
 
 /* ------------------------------------ Jumbotron */
 .center {
