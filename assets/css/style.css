@@ -326,3 +326,8 @@ p {
     align-self: center;
   }
  
+  
+/* -------------------------------- Footer */
+footer{
+  border-top: 5px solid #fcb900;
+}
