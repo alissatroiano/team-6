@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+
     <!--Bootstrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -15,6 +15,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
     </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>INKLUSION</title>
 </head>
 
@@ -22,17 +23,18 @@
     <!--header-->
     <header>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar fix navbar-expand-lg shadow-lg">
             <div class="container-fluid">
                 <!-- Logo -->
-                <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span class="rainbow-text">INK</span>LUSION</a>
+                <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span
+                        class="rainbow-text">INK</span>LUSION</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-label="Go to the homepage" href="index.html">Home</a>
                         </li>
@@ -81,9 +83,10 @@
                             <a class="nav-link" aria-label="Go to the team page" href="team.html">Team</a>
                         </li>
                         <li>
-                            <button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#resourceModal">Get Involved</button>
+                            <button type="button" class="btn btn-modal" data-bs-toggle="modal"
+                                data-bs-target="#resourceModal">Get Involved</button>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -91,25 +94,38 @@
     </header>
     <!--./header-->
 
-    <!-- Jumbotron -->
-    <section id="jumbotron-section" class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <div class="jumbotron">
-                    <h1 class="display-4 center">INKLUSION</h1>
-                    <p class="lead center"><small>A virtual tour of LGBTQIA+ art throughout history.</small></p>
+    <!--Jumbotron-->
+    <section class="jumbotron" id="jumbotron-section">
+        <div class="container">
+            <div class="col-12 pt-5">
+                <div class="row d-flex text-center" data-aos="fade-in" data-aos-duration="2500" data-aos-delay="100">
+                    <i class="fas fa-tint fa-3x pt-3 pt-md-5 txt-shadow"></i>
+                    <h1 class="display-4 center" id="jumbotron-title">
+                        <span class="rainbow-text">INK</span>LUSION
+                    </h1>
+                </div>
+
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <h2 class="hero-text text-center my-3 my-md-5" id="hero-content-1" data-aos="fade-in">
+                        <br>
+                        <span class="text-main hero-fade" data-aos="fade-in" data-aos-duration="2500"
+                            data-aos-delay="400">Welcome to the INKLUSION art gallery</span>
+                        <br>
+                        <br>
+                        <div class="dark-sm my-3" data-aos="fade-in" data-aos-duration="2500" data-aos-delay="800">A
+                            virtual tour of <span class="rainbow-text">LGBTQIA+</span> art throughout history </div>
+                    </h2>
                 </div>
             </div>
-        </div>
-        <div class="row gallery-button">
-            <div class="col">
-                <p class="center">
-                    <a class="btn btn-lg center" href="#" role="button">Visit Gallery</a>
-                </p>
+            <div class="row d-flex text-center py-5">
+                <a class="text-dark" href="#gallery">
+                    <i class="fas fa-chevron-down fa-2x mb-3"></i>
+                </a>
             </div>
         </div>
     </section>
-    <!--./jumbotron-->
 
     <!--Gallery Section-->
     <section class="gallery-section p-3" id="gallery">
@@ -325,34 +341,51 @@
                         below sites are a great way to start connecting with the LGBTQIA+ creative community.</p>
                     <ul class="resources">
                         <li>
-                            <a href="http://www.alliesinarts.org/" target="_blank" rel="noopener" aria-label="Visit the Allies in Arts website (opens in a new tab)">Allies in Arts</a>
+                            <a href="http://www.alliesinarts.org/" target="_blank" rel="noopener"
+                                aria-label="Visit the Allies in Arts website (opens in a new tab)">Allies in Arts</a>
                         </li>
                         <li>
-                            <a href="https://www.queer-art.org/" target="_blank" rel="noopener" aria-label="Visit the Queer Ary website (opens in a new tab)">Queer Art</a>
+                            <a href="https://www.queer-art.org/" target="_blank" rel="noopener"
+                                aria-label="Visit the Queer Ary website (opens in a new tab)">Queer Art</a>
                         </li>
                         <li>
-                            <a href="https://queercircle.org/" target="_blank" rel="noopener" aria-label="Visit the Queercircle website (opens in a new tab)">Queercircle</a>
+                            <a href="https://queercircle.org/" target="_blank" rel="noopener"
+                                aria-label="Visit the Queercircle website (opens in a new tab)">Queercircle</a>
                         </li>
                         <li>
-                            <a href="https://www.queerdesign.club/" target="_blank" rel="noopener" aria-label="Visit the Queer Design club website (opens in a new tab)">Queer Design Club</a>
+                            <a href="https://www.queerdesign.club/" target="_blank" rel="noopener"
+                                aria-label="Visit the Queer Design club website (opens in a new tab)">Queer Design
+                                Club</a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/arthoecollective/" target="_blank" rel="noopener" aria-label="Visit the Art Hoe Collective Instagram (opens in a new tab)">Art Hoe Collective</a>
+                            <a href="https://www.instagram.com/arthoecollective/" target="_blank" rel="noopener"
+                                aria-label="Visit the Art Hoe Collective Instagram (opens in a new tab)">Art Hoe
+                                Collective</a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/btfacollective/" target="_blank" rel="noopener" aria-label="Visit the Black Trans Femmes in the Arts Instagram (opens in a new tab)">Black Trans Femmes in the Arts</a>
+                            <a href="https://www.instagram.com/btfacollective/" target="_blank" rel="noopener"
+                                aria-label="Visit the Black Trans Femmes in the Arts Instagram (opens in a new tab)">Black
+                                Trans Femmes in the Arts</a>
                         </li>
                         <li>
-                            <a href="https://curiousarts.org.uk/" target="_blank" rel="noopener" aria-label="Visit the Curious Arts website (opens in a new tab)">Curious Arts</a>
+                            <a href="https://curiousarts.org.uk/" target="_blank" rel="noopener"
+                                aria-label="Visit the Curious Arts website (opens in a new tab)">Curious Arts</a>
                         </li>
                         <li>
-                            <a href="https://docs.google.com/spreadsheets/u/0/d/1wVeTJqrzetRUryrJUN8Ep93Kb-Kf7e_A7fIT-iuLTVo/htmlview#gid=177453409" target="_blank" rel="noopener" aria-label="Visit the Queer Creatives Community Directory (opens in a new tab)">Queer Creatives Community Directory</a>
+                            <a href="https://docs.google.com/spreadsheets/u/0/d/1wVeTJqrzetRUryrJUN8Ep93Kb-Kf7e_A7fIT-iuLTVo/htmlview#gid=177453409"
+                                target="_blank" rel="noopener"
+                                aria-label="Visit the Queer Creatives Community Directory (opens in a new tab)">Queer
+                                Creatives Community Directory</a>
                         </li>
                         <li>
-                            <a href="https://www.queerartprojects.co.uk/" target="_blank" rel="noopener" aria-label="Visit the Queer Art Projects website (opens in a new tab)">Queer Art Projects</a>
+                            <a href="https://www.queerartprojects.co.uk/" target="_blank" rel="noopener"
+                                aria-label="Visit the Queer Art Projects website (opens in a new tab)">Queer Art
+                                Projects</a>
                         </li>
                         <li>
-                            <a href="https://qyac.org.uk/" target="_blank" rel="noopener" aria-label="Visit the Queer Youth Art Collective website (opens in a new tab)">Queer Youth Art Collective</a>
+                            <a href="https://qyac.org.uk/" target="_blank" rel="noopener"
+                                aria-label="Visit the Queer Youth Art Collective website (opens in a new tab)">Queer
+                                Youth Art Collective</a>
                         </li>
                     </ul>
                 </div>
@@ -377,6 +410,14 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
+    <!--AOS Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Initialize AOS Library-->
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
