@@ -204,3 +204,41 @@ p {
       --box-x-padding: 3rem;
       --box-y-padding: 6rem;
     }
+  }
+
+  /* ------------------------------------- Team page */
+
+  div .card {
+    border: none;
+  }
+
+  .team img {
+    width: 280px;
+    height: 280px;
+    border-radius:50% ;
+  }
+
+  #team-card img {
+    border: 5px solid #cf2e2e;
+  }
+
+  #team-card-1 img {
+    border: 5px solid #ff6900;    
+  }
+
+  #team-card-2 img {
+    border: 5px solid #fcb900;    
+  }
+
+  #team-card-3 img {
+    border: 5px solid #00d084;    
+  }
+
+  #team-card-4 img {
+    border: 5px solid #0693e3;    
+  }
+
+  .card-img-top {
+    align-self: center;
+  }
+ 
