@@ -116,8 +116,15 @@ The following steps can be used to clone the GitHub repository:
 
 ## Credits
 
+### Code
+
+* Credit and articles etc that we have copied code from
+
+### Content
+
 * Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
-Add the below to the media credits section:
+
+### Media
 * Claud Cahun's Que me veut tu? is owned by the [Musee d'Art Modern](https://www.mam.paris.fr/en).
 * Gluck's Medallion is found in a Private Collection (photo by Christie's Images).
 * Beauford Delaney's Can Fire in the Park is owned by the [Smithsonian American Art Museum](https://americanart.si.edu/).
@@ -128,20 +135,6 @@ Add the below to the media credits section:
 * Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
 * Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
 * Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
-
-
-
-
-### Code
-
-* Credit and articles etc that we have copied code from
-
-### Content
-* credit fonts and font awesome icons etc
-* Credit and sites we have taken information from
-
-### Media
-* Credit images used
 
 ### Other
 
