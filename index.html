@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <!--Bootstrap 5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Import Futura from Adobe Fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/hdw8ydb.css">
+    <!--AOS Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>INKLUSION</title>
 </head>`
 
-<body> 
-    <div class="container-fluid">
+<body>
+    <!--header-->
+<div class="container-fluid">
         <header class="d-flex flex-wrap justify-content-center justify-content-lg-around py-3 mb-4 border-0 my-0">
-            <!-- Logo -->
             <a href="index.html">
                 <h1 id="logo"><i class="fa-solid fa-droplet"></i> INKLUSION</h1>
             </a>
-            <!-- Navigation -->
             <nav>
                 <ul id="navbar">
                     <li >
@@ -35,9 +42,11 @@
                 </ul>
             </nav>
         </header>
-    </div>    
+    </div> 
+    <!--./header-->
 
-    <section id="gallery-section" class="container-fluid">
+    <!-- Jumbotron -->
+    <section id="jumbotron-section" class="container-fluid">
         <div class="row">
             <div class="col">
                 <div class="jumbotron">
@@ -50,171 +59,266 @@
             <div class="col">
                 <p class="center">
                     <a class="btn btn-lg center" href="#" role="button">Visit Gallery</a>
-                </p>     
+                </p>
             </div>
         </div>
     </section>
-</div>
+    <!--./jumbotron-->
 
-<!--Jumbotron-->`
-<!--./jumbotron-->
+    <!--Gallery Section-->
+    <section class="gallery-section p-3" id="gallery">
+        <div class="container-fluid p-3 p-md-5">
+            <!--section heading-->
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="section-header">Gallery</h2>
+                    <hr>
+                </div>
+            </div>
+            <!--./section heading-->
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Que me veux tu?</h2>
+                        <h3 class="artist-details">By Claude Cahun</h3>
+                        <h4 class="dates">1894 - 1954</h4>
+                        <p class="artwork-details">Born Lucy Renee Mathilde Schwob, Claude Cahun was a French surrealist
+                            photographer, sculptor and writer. They were non-binary and stated that “Neuter is the only
+                            gender that always suits me.” They collaborated with their step-sister and lover Marcel
+                            Moore. Cahun is best known for their surrealist self-portraits which appear to experiment
+                            with gender presentation. This work is a typical example.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/que-me-veux-tu.jpg"
+                            alt="Image of Que me veux tu? by Claud Cahun">
+                        <span style="display:inline-block;padding:2px 3px;">1929, Mus&eacute;e d'Art Moderne</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Medallion</h2>
+                        <h3 class="artist-details">By Gluck</h3>
+                        <h4 class="dates">1895 - 1978</h4>
+                        <p class="artwork-details">Gluck (born Hannah Gluckstein) was a British painter known for
+                            portraits and floral paintings. They were gender nonconforming and rejected any forename or
+                            prefix. Gluck had relationships with a number of women including Nesta Obermer. They
+                            considered this painting of the two of them to be their marriage picture.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/medallion.jpg" alt="Image of Medallion by Gluck">
+                        <span style="display:inline-block;padding:2px 3px;">1937, Private Collection</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Can Fire in the Park</h2>
+                        <h3 class="artist-details">By Beauford Delaney</h3>
+                        <h4 class="dates">1901 - 1979</h4>
+                        <p class="artwork-details">Beauford Delaney was an American modernist painter known for working
+                            with the Harlem Renaissance in the 30s and 40s. He was gay and suffered the societal
+                            persecutions of both his race and sexuality. Delaney moved to New York during the Great
+                            Depression and found an affinity with the poor and disenfranchised community in Harlem. They
+                            became the subjects of many of his works including this painting.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/can-fire-in-the-park.png"
+                            alt="Image of Can Fire in the Park by Beauford Delaney">
+                        <span style="display:inline-block;padding:2px 3px;">1946, Smithsonian American Art
+                            Museum</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Las dos Fridas</h2>
+                        <h3 class="artist-details">By Frida Kahlo</h3>
+                        <h4 class="dates">1907 - 1954</h4>
+                        <p class="artwork-details">Frida Kahlo was a Mexican painter known for self-portraits and work
+                            inspired by Mexico. Kahlo was married to Mexican painter Diego Rivera for many years but was
+                            known to have affairs with both men and women. Life experience is common in Kahlo's work and
+                            it often reflects he physical and emotional pain, this painting is a classic example.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/the-two-fridas.jpg"
+                            alt="Image of Los dos Fridas by Frida Kahlo">
+                        <span style="display:inline-block;padding:2px 3px;">1939, Museo de Arte Moderno</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Portrait of George Dyer in a Mirror</h2>
+                        <h3 class="artist-details">By Francis Bacon</h3>
+                        <h4 class="dates">1909 - 1992</h4>
+                        <p class="artwork-details">Francis Bacon was an Irish-born British figurative painter. He is
+                            known for his raw unsettling imagery and often created art in triptych or diptych format.
+                            Bacon was gay and spent a number of years with Londoner George Dyer. He created a number of
+                            artworks of Dyer including this painting.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/portrait-of-george-dyer-in-a-mirror.webp"
+                            alt="Image of Portrait of George Dyer in a Mirror by Francis Bacon">
+                        <span style="display:inline-block;padding:2px 3px;">1968, The Estate of Francis Bacon</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Brillo Box (Soap Pads)</h2>
+                        <h3 class="artist-details">By Andy Warhol</h3>
+                        <h4 class="dates">1928 - 1987</h4>
+                        <p class="artwork-details">Andy Warhol was an American artist, film director and producer know
+                            for his pop art. He lived as an openly gay man before the gay liberation movement. Warhol
+                            often made mass-produced works of commercial items like this Brillo Box.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/brillo-box.jpg"
+                            alt="Image of Brillo Box by Andy Warhol">
+                        <span style="display:inline-block;padding:2px 3px;">1964, Andy Warhol Foundation for the Visual
+                            Atrs</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Self Portrait</h2>
+                        <h3 class="artist-details">By Robert Mapplethorpe</h3>
+                        <h4 class="dates">1946 - 1989</h4>
+                        <p class="artwork-details">Robert Mapplethorpe was an American photographer. He was best known
+                            for his black-and-white photographs and in particular his controversial works presenting the
+                            gay male BDSM subculture of New York City. The case and acquittal around his The Perfect
+                            Moment exhibitiion reaffirmed the right to freedon of speech and changed the world for the
+                            LGBTQI+ community. This self portrait was taken about a year before his death due to
+                            complications of AIDS.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/self-portrait.jpg"
+                            alt="Image of Self portrait by Robert Mapplethorpe">
+                        <span style="display:inline-block;padding:2px 3px;">1980, Solomon R. Guggenheim
+                            Museum</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Ignorance = Fear / Silence = Death</h2>
+                        <h3 class="artist-details">By Keith Haring</h3>
+                        <h4 class="dates">1958 - 1990</h4>
+                        <p class="artwork-details">Keith Haring was part of the legendary New York art scene of the
+                            1980s. His work was inspired by graffiti, pop art and underground club culture. He used his
+                            images for social activism by advocating for safe sex and AIDS awareness. This piece is one
+                            example of those images.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/ignorance=fear.jpg"
+                            alt="Image of Ignorance = Fear / Silence = Death by Keith Haring">
+                        <span style="display:inline-block;padding:2px 3px;">1989, Whitney Museum of American
+                            Art</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">Chicken</h2>
+                        <h3 class="artist-details">By Catherine Opie</h3>
+                        <h4 class="dates">1961 - present</h4>
+                        <p class="artwork-details">Catherine Opie is an American fine-art photographer. She studies the
+                            connections between mainstream and infrequent society. Her work is known for dealing with
+                            questions of sexual identity, queer subculture and how people relate to their communities.
+                            This image is part of the Being and Having series of photos which show Lesbians wearing
+                            stereotypical masculine accessories.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/chicken.jpg"
+                            alt="Image of Chicken by Catherine Opie">
+                        <span style="display:inline-block;padding:2px 3px;">1991, Catherine Opie</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-wrap p-3 p-md-5">
+                <div class="artwork-row" id="display-1">
+                    <div class="content">
+                        <h2 class="artwork-title mt-3 mt-md-5">ID Crisis</h2>
+                        <h3 class="artist-details">By Zanele Muholi</h3>
+                        <h4 class="dates">1972 - present</h4>
+                        <p class="artwork-details">Zanele is a South African artist who works in photography, video and
+                            installation. Muholi is non-binary and is known for their work documenting the lives of
+                            South Africa's Black lesbian, gay, trans, queer and intersex communities. This work is one
+                            such example.</p>
+                    </div>
+                    <div class="img my-3 my-md-5">
+                        <img class="img-fluid art" src="assets/images/id-crisis.jpg"
+                            alt="Image of ID Crisis by Zanele Muholi">
+                        <span style="display:inline-block;padding:2px 3px;">2003, Zanele Muholi</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!--Gallery Section-->
-<section class="gallery-section p-3" id="gallery">
-    <div class="container-fluid p-3 p-md-5">
-        <!--section heading-->
-        <div class="row text-center">
-            <div class="col-12">
-                <h2>Gallery</h2>
-                <hr>
-            </div>
-        </div>
-        <!--./section heading-->
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Que me veux tu?</h2>
-                    <h3 class="artist-details">By Claude Cahun</h3>
-                    <h4 class="dates">1894 - 1954</h4>
-                    <p class="artwork-details">Born Lucy Renee Mathilde Schwob, Claude Cahun was a French surrealist photographer, sculptor and writer. They were non-binary and stated that “Neuter is the only gender that always suits me.” They collaborated with their step-sister and lover Marcel Moore. Cahun is best known for their surrealist self-portraits which appear to experiment with gender presentation. This work is a typical example.</p>
+    <!-- Resources Modal -->
+    <div class="modal fade" id="resourceModal" tabindex="-1" aria-labelledby="resourceModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Learn, Donate, Create</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/que-me-veux-tu.jpg" alt="Image of Que me veux tu? by Claud Cahun">
-                    <span style="display:inline-block;padding:2px 3px;">1929, Mus&eacute;e d'Art Moderne</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Medallion</h2>
-                    <h3 class="artist-details">By Gluck</h3>
-                    <h4 class="dates">1895 - 1978</h4>
-                    <p class="artwork-details">Gluck (born Hannah Gluckstein) was a British painter known for portraits and floral paintings. They were gender nonconforming and rejected any forename or prefix. Gluck had relationships with a number of women including Nesta Obermer. They considered this painting of the two of them to be their marriage picture.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/medallion.jpg" alt="Image of Medallion by Gluck">
-                    <span style="display:inline-block;padding:2px 3px;">1937, Private Collection</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Can Fire in the Park</h2>
-                    <h3 class="artist-details">By Beauford Delaney</h3>
-                    <h4 class="dates">1901 - 1979</h4>
-                    <p class="artwork-details">Beauford Delaney was an American modernist painter known for working with the Harlem Renaissance in the 30s and 40s. He was gay and suffered the societal persecutions of both his race and sexuality. Delaney moved to New York during the Great Depression and found an affinity with the poor and disenfranchised community in Harlem. They became the subjects of many of his works including this painting.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/can-fire-in-the-park.png" alt="Image of Can Fire in the Park by Beauford Delaney">
-                    <span style="display:inline-block;padding:2px 3px;">1946, Smithsonian American Art Museum</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Las dos Fridas</h2>
-                    <h3 class="artist-details">By Frida Kahlo</h3>
-                    <h4 class="dates">1907 - 1954</h4>
-                    <p class="artwork-details">Frida Kahlo was a Mexican painter known for self-portraits and work inspired by Mexico. Kahlo was married to Mexican painter Diego Rivera for many years but was known to have affairs with both men and women. Life experience is common in Kahlo's work and it often reflects he physical and emotional pain, this painting is a classic example.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/the-two-fridas.jpg" alt="Image of Los dos Fridas by Frida Kahlo">
-                    <span style="display:inline-block;padding:2px 3px;">1939, Museo de Arte Moderno</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Portrait of George Dyer in a Mirror</h2>
-                    <h3 class="artist-details">By Francis Bacon</h3>
-                    <h4 class="dates">1909 - 1992</h4>
-                    <p class="artwork-details">Francis Bacon was an Irish-born British figurative painter. He is known for his raw unsettling imagery and often created art in triptych or diptych format. Bacon was gay and spent a number of years with Londoner George Dyer. He created a number of artworks of Dyer including this painting.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/portrait-of-george-dyer-in-a-mirror.webp" alt="Image of Portrait of George Dyer in a Mirror by Francis Bacon">
-                    <span style="display:inline-block;padding:2px 3px;">1968, The Estate of Francis Bacon</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Brillo Box (Soap Pads)</h2>
-                    <h3 class="artist-details">By Andy Warhol</h3>
-                    <h4 class="dates">1928 - 1987</h4>
-                    <p class="artwork-details">Andy Warhol was an American artist, film director and producer know for his pop art. He lived as an openly gay man before the gay liberation movement. Warhol often made mass-produced works of commercial items like this Brillo Box.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/brillo-box.jpg" alt="Image of Brillo Box by Andy Warhol">
-                    <span style="display:inline-block;padding:2px 3px;">1964, Andy Warhol Foundation for the Visual Atrs</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Self Portrait</h2>
-                    <h3 class="artist-details">By Robert Mapplethorpe</h3>
-                    <h4 class="dates">1946 - 1989</h4>
-                    <p class="artwork-details">Robert Mapplethorpe was an American photographer. He was best known for his black-and-white photographs and in particular his controversial works presenting the gay male BDSM subculture of New York City. The case and acquittal around his The Perfect Moment exhibitiion reaffirmed the right to freedon of speech and changed the world for the LGBTQI+ community. This self portrait was taken about a year before his death due to complications of AIDS.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/self-portrait.jpg" alt="Image of Self portrait by Robert Mapplethorpe">
-                    <span style="display:inline-block;padding:2px 3px;">1980, Solomon R. Guggenheim Museum</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Ignorance = Fear / Silence = Death</h2>
-                    <h3 class="artist-details">By Keith Haring</h3>
-                    <h4 class="dates">1958 - 1990</h4>
-                    <p class="artwork-details">Keith Haring was part of the legendary New York art scene of the 1980s. His work was inspired by graffiti, pop art and underground club culture. He used his images for social activism by advocating for safe sex and AIDS awareness. This piece is one example of those images.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/ignorance=fear.jpg" alt="Image of Ignorance = Fear / Silence = Death by Keith Haring">
-                    <span style="display:inline-block;padding:2px 3px;">1989, Whitney Museum of American Art</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">Chicken</h2>
-                    <h3 class="artist-details">By Catherine Opie</h3>
-                    <h4 class="dates">1961 - present</h4>
-                    <p class="artwork-details">Catherine Opie is an American fine-art photographer. She studies the connections between mainstream and infrequent society. Her work is known for dealing with questions of sexual identity, queer subculture and how people relate to their communities. This image is part of the Being and Having series of photos which show Lesbians wearing stereotypical masculine accessories.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/chicken.jpg" alt="Image of Chicken by Catherine Opie">
-                    <span style="display:inline-block;padding:2px 3px;">1991, Catherine Opie</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="row d-flex flex-wrap p-3 p-md-5">
-            <div class="artwork-row" id="display-1">
-                <div class="content">
-                    <h2 class="artwork-title mt-3 mt-md-5">ID Crisis</h2>
-                    <h3 class="artist-details">By Zanele Muholi</h3>
-                    <h4 class="dates">1972 - present</h4>
-                    <p class="artwork-details">Zanele is a South African artist who works in photography, video and installation. Muholi is non-binary and is known for their work documenting the lives of South Africa's Black lesbian, gay, trans, queer and intersex communities. This work is one such example.</p>
-                </div>
-                <div class="img my-3 my-md-5">
-                    <img class="img-fluid art" src="assets/images/id-crisis.jpg" alt="Image of ID Crisis by Zanele Muholi">
-                    <span style="display:inline-block;padding:2px 3px;">2003, Zanele Muholi</span></a>
+                <div class="modal-body">
+                    <p>Whether you're a LGBTQIA+ artist youself or are keen to meet and support those who are, the
+                        below sites are a great way to start connecting with the LGBTQIA+ creative community.</p>
+                    <ul class="resources">
+                        <li>
+                            <a href="http://www.alliesinarts.org/" target="_blank" rel="noopener" aria-label="Visit the Allies in Arts website (opens in a new tab)">Allies in Arts</a>
+                        </li>
+                        <li>
+                            <a href="https://www.queer-art.org/" target="_blank" rel="noopener" aria-label="Visit the Queer Ary website (opens in a new tab)">Queer Art</a>
+                        </li>
+                        <li>
+                            <a href="https://queercircle.org/" target="_blank" rel="noopener" aria-label="Visit the Queercircle website (opens in a new tab)">Queercircle</a>
+                        </li>
+                        <li>
+                            <a href="https://www.queerdesign.club/" target="_blank" rel="noopener" aria-label="Visit the Queer Design club website (opens in a new tab)">Queer Design Club</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/arthoecollective/" target="_blank" rel="noopener" aria-label="Visit the Art Hoe Collective Instagram (opens in a new tab)">Art Hoe Collective</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/btfacollective/" target="_blank" rel="noopener" aria-label="Visit the Black Trans Femmes in the Arts Instagram (opens in a new tab)">Black Trans Femmes in the Arts</a>
+                        </li>
+                        <li>
+                            <a href="https://curiousarts.org.uk/" target="_blank" rel="noopener" aria-label="Visit the Curious Arts website (opens in a new tab)">Curious Arts</a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/u/0/d/1wVeTJqrzetRUryrJUN8Ep93Kb-Kf7e_A7fIT-iuLTVo/htmlview#gid=177453409" target="_blank" rel="noopener" aria-label="Visit the Queer Creatives Community Directory (opens in a new tab)">Queer Creatives Community Directory</a>
+                        </li>
+                        <li>
+                            <a href="https://www.queerartprojects.co.uk/" target="_blank" rel="noopener" aria-label="Visit the Queer Art Projects website (opens in a new tab)">Queer Art Projects</a>
+                        </li>
+                        <li>
+                            <a href="https://qyac .org.uk/" target="_blank" rel="noopener" aria-label="Visit the Queer Youth Art Collective website (opens in a new tab)">Queer Youth Art Collective</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</section>
 
     <!-- Bootstrap 5 JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
