@@ -11,34 +11,40 @@
 </head>`
 
 <body> 
-    <div class="container-fluid">
-        <header class="d-flex flex-wrap justify-content-center justify-content-lg-around py-3 mb-4 border-0 my-0">
-            <!-- Logo -->
-            <a href="index.html">
-                <h1 id="logo"><i class="fa-solid fa-droplet"></i> INKLUSION</h1>
-            </a>
-            <!-- Navigation -->
-            <nav>
-                <ul id="navbar">
-                    <li >
-                        <a href="team.html">Team Page</a>
-                    </li>
-                    <li >
-                        <a href="#">Hire Artists</a>
-                    </li>
-                    <li>
-                        <a href="#gallery">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-    </div>    
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span class="rainbow-text">INK</span>LUSION</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="index.html#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link active" href="team.html">Team</a>
+                        </li>
+                        <li>
+                            <button class="btn btn-outline-success" type="button">Hire Artist</button>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     
     <section class="team" id="team-section">
         <!--container for team page starts here-->
