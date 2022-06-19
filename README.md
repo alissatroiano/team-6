@@ -29,8 +29,7 @@
 ## Introduction
 
 This is a website providing information about LGBTQIA+ art throughout history. In keeping with Pride 2022 Theme: Togetherness, this website provides information on famous LGBTQA+ artists along with photo representation of a quintessential art piece from their repertoire. The website also provides information on local LGBTQA+ artists and how they can be contacted. The site is targeted towards not just the LGBTQA+ community, but to those interested in expanding their knowledge of art and looking to support local LGBTQA+ artists by adding to their art collection. 
-[The live project can be found here.]
-(https://8000-alissatroiano-team6-tnji43u87lz.ws-eu47.gitpod.io/index.html)
+[The live project can be found here.](https://alissatroiano.github.io/team-6/)
 ## UX
 
 ### User Stories
@@ -45,30 +44,32 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 The following wireframes were created to help plan the layout of the site:
 
-* [Homepage](path to file)
+* [Homepage](docs/wireframes/hackathon_wireframes.pdf)
 * [another page](path to file)
 
 ## Features
 
 ### Existing Features
 
-#### Name of feature
+#### Navigation Bar
 
-* Description of feature and benefit
-* Description of feature and benefit
+* Located concisely at the top right of every page 
+* The user can easily navigate to different sections of the site with ease. 
 
-![Feature Name](image path)
+![Navigation Bar](docs/screenshots/Nav-Home.jpeg)
 
-#### Name of feature
+#### Website Theme Logo
 
-* Description of feature and benefit
-* Description of feature and benefit
+* Logo is located at the top left of the home page for easy access.
+* Clicking on the logo will bring the user back to the home page. 
 
-![Feature Name](image path)
+![Website Theme Logo](/docs/screenshots/Home-Logo.jpeg)
 
 ### Features Left to Implement
 
-* Describe some features that we would like to implement in the future
+* A constantly updating showcase of current and up-and-coming LGBTQIA+ artists.
+* A directory of LGBTQIA+ creatives with the option to contact them and buy art work.
+* A forum for LGBTQIA+ art lovers to meet and discuss art.
 
 ## Technologies Used
 
@@ -114,6 +115,22 @@ The following steps can be used to clone the GitHub repository:
 * Press 'Enter' to create the clone.
 
 ## Credits
+
+* Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+Add the below to the media credits section:
+* Claud Cahun's Que me veut tu? is owned by the [Musee d'Art Modern](https://www.mam.paris.fr/en).
+* Gluck's Medallion is found in a Private Collection (photo by Christie's Images).
+* Beauford Delaney's Can Fire in the Park is owned by the [Smithsonian American Art Museum](https://americanart.si.edu/).
+* Frida Kahlo's Las dos Fridas is owned by the [Museo de Arte Moderno](https://mam.inba.gob.mx/).
+* Copyright for Francis Bacon's portrait of George Dyer in a Mirror is owned by the Estate of Francis Bacon.
+* Copyright for Andy Warhol's Brillo Box is owned by the Andy Warhol Foundation for the Visual Arts.
+* Robert Mapplethorpe's Self Portrait is owned by the [Solomon R. Guggenheim Museum](https://www.guggenheim.org/).
+* Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
+* Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
+* Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
+
+
+
 
 ### Code
 
