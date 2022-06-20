@@ -44,11 +44,12 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 ### User Stories
 
-| ID | As a... | I Want To Be Able To... | So That I Can...|
-| --- | --- | --- | --- |
-| 01 | User | Some capability e.g. navigate site | Some benefit |
-| 02 | User | Some capability | Some benefit |
-| 03 | User | Some capability | Some benefit |
+1. As someone in the LGBTQA+ community, I love the minimalistic quality and easy navigation to the site. The rainbow colors in the logo is consistent with the minimalistic theme. This allows the rainbow colours and navigation bar stand out. I can scroll down to the gallery with ease and met with a twirlng animated representation of the artists individually. I can easily read about the artist and view a piece in their collection. I can easily get acquainted with the artists and their work, even on a short coffee break. 
+*I can also use the 'virtual tour' to easily and quickly educagte others about the artists both past and present in our community. 
+2. As an art collector looking to expand my art collection, I found this website esthetically pleasing and asy to navigate. I am already familier with the pieces and the artists represented in the gallery. And the expereince of the gallery is just that: 'a virtual gallery'. The background of the site reminds me of the art galleries i frequent and the artwork and respective artists descriptions are what I've come to expect at art shows. 
+*The navigation bar at the top is clearly visable and consistent, no matter where in the site I am. 
+* Upon clicking on the 'Get Involved' section of the navigation bar, I was met with a fine list of local artists, as well as additional information on organizations supporting the LGBTQA+ community. 
+*For someone like myself, who is not a direct member in the LGBTQA+ community, I found the site very educational and informative. 
 
 ### Wireframes
 
