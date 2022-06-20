@@ -112,7 +112,43 @@ The idea is that the site will evolve into a real art hub for LGBTQIA+ artists a
 
 ## Testing
 
-Details about the testing we have carried out.
+### Validator Testing
+
+**[HTML W3C Validator:](https://validator.w3.org/)**
+* A check on the team page showed a duplicate id on the footer logo and an incorrect id on the modal header. These have been renamed on the team and index page.
+* No other errors were found on the team page.
+* Spurious ending anchor tags were found on the image captions on the index page. These have been removed.
+* An incorrect character in the boostrap script link on the index page has been removed.
+* There are a number of other validator errors on the index page. It was not possible to fix these in time.
+
+**[CSS Jigsaw Validator:](https://jigsaw.w3.org/css-validator/)**
+* No errors were found.
+
+**[JavsScript JSHint Validator:](https://jshint.com/)**
+* No errors were found.
+
+### Manual Testing
+
+**Navigation Bar**
+* All links take the user to the correct page or part of the page.
+* The Gallery dropdown menu displays correctly and the links work as expected.
+* The navigation collapses to a toggle on smaller screens.
+
+**Footer**
+* The social media links take the user to the correct page and open in a new tab.
+* The in site links take the user to the corect page or part of page.
+* A bug in the 'Get Involved' modal launch button on the team page has been corrected.
+
+**Index Page**
+* The to gallery and back to top arrows take the user to the correct parts of the page.
+* The artist section animations work as expected.
+
+**Team Page**
+* The team member LinkedIn and Github links take the user to the correct pages and open in a new tab.
+
+**Get Involved Modal**
+* The modal launches when the button is clicked.
+* The links take the user to the correct page and open in a new tab.
 
 ## Deployment
 
