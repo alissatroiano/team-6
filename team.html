@@ -38,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-label="Go to the homepage" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item gallery-dropdown dropdown">
+                    <li class="gallery-dropdown dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="galleryDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Gallery
@@ -97,7 +97,7 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-label="Go to the team page" href="team.html">Team</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <button type="button" class="btn btn-nav btn-modal" data-bs-toggle="modal"
                             data-bs-target="#resourceModal">Get Involved</button>
                     </li>
@@ -286,12 +286,22 @@
         <p class="text-center text-muted"><small>© 2022 Code Institutes Pride Hackathon Team - CTRL ALT Elite</small>
         </p>
     </footer>
+    </body>
 
     <!-- Bootstrap 5 JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
-</body>
+    <script>
+        const navLinks = document.querySelectorAll('.nav-item')
+        const menuToggle = document.getElementById('navbarSupportedContent')
+        const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => { bsCollapse.toggle() })
+        })
+    </script>
+    <!--Custom JS-->
+    <script src="assets/js/script.js"></script>
 
 </html>

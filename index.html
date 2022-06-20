@@ -101,7 +101,7 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-label="Go to the team page" href="team.html">Team</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <button type="button" class="btn btn-nav btn-modal" data-bs-toggle="modal"
                                 data-bs-target="#resourceModal">Get Involved</button>
                         </li>
@@ -365,16 +365,41 @@
             </div>
         </div>
         <!-- Back to top button -->
-<button
-type="button"
-class="btn border-0"
-id="btn-back-to-top"
->
-<i class="fas fa-chevron-up fa-2x"></i>
-</button> 
     </section>
-    <!-- Resources Modal -->
-    <div class="modal fade" id="resourceModal" tabindex="-1" aria-labelledby="resourceModalLabel" aria-hidden="true">
+    <div class=" d-flex justify-content-end">
+        <button type="button" class="btn border-0" id="btn-back-to-top">
+            <i class="fas fa-chevron-up fa-2x"></i>
+        </button>
+    </div>
+    <!-- Footer -->
+    <footer class="my-4 footer container-fluid">
+        <div class="clearfix text-center footer-logo">
+            <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span
+                    class="rainbow-text">INK</span>LUSION</a>
+        </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="index.html#gallery" class="nav-link px-2">Gallery</a></li>
+            <li class="nav-item"><a href="team.html" class="nav-link px-2">Team</a></li>
+            <li class="nav-item"><button type="button" class="btn btn-modal" data-bs-toggle="modal"
+                    data-bs-target="#resourceModal">Get Involved</button></li>
+        </ul>
+        <ul class="nav justify-content-center justify-content-sm-end">
+            <li class="nav-item"><a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="nav-item"><a href="https://twitter.com/codeinstitute" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/school/code-institute/mycompany/" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="nav-item"><a href="https://github.com/Code-Institute-Community/ci-hackathon-app" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <p class="text-center text-muted">
+            <small>© 2022 Code Institutes Pride Hackathon Team - CTRL ALT Elite</small>
+        </p>
+    </footer>
+     <!-- Resources Modal -->
+     <div class="modal fade" id="resourceModal" tabindex="-1" aria-labelledby="resourceModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -438,36 +463,6 @@ id="btn-back-to-top"
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <footer class="my-4 footer container-fluid">
-        <div class="clearfix text-center footer-logo">
-            <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span
-                    class="rainbow-text">INK</span>LUSION</a>
-        </div>
-        <ul class="nav justify-content-center">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
-            <li class="nav-item"><a href="index.html#gallery" class="nav-link px-2">Gallery</a></li>
-            <li class="nav-item"><a href="team.html" class="nav-link px-2">Team</a></li>
-            <li class="nav-item"><button type="button" class="btn btn-modal" data-bs-toggle="modal"
-                    data-bs-target="#resourceModal">Get Involved</button></li>
-        </ul>
-        <ul class="nav justify-content-center justify-content-sm-end">
-            <li class="nav-item"><a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank"
-                    class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
-            <li class="nav-item"><a href="https://twitter.com/codeinstitute" target="_blank"
-                    class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
-            <li class="nav-item"><a href="https://www.linkedin.com/school/code-institute/mycompany/" target="_blank"
-                    class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li class="nav-item"><a href="https://github.com/Code-Institute-Community/ci-hackathon-app" target="_blank"
-                    class="nav-link px-2 text-muted"><i class="fa-brands fa-github"></i></a></li>
-        </ul>
-        <p class="text-center text-muted">
-            <small>© 2022 Code Institutes Pride Hackathon Team - CTRL ALT Elite</small>
-        </p>
-    </footer>
-    <!--Custom JS-->
-    <script src="assets/js/script.js"></script>
-
     <!-- Bootstrap 5 JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52`nD2"
@@ -485,10 +480,11 @@ id="btn-back-to-top"
         const menuToggle = document.getElementById('navbarSupportedContent')
         const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
         navLinks.forEach((l) => {
-          l.addEventListener('click', () => { bsCollapse.toggle() })
+            l.addEventListener('click', () => { bsCollapse.toggle() })
         })
-      </script>
+    </script>
+    <!--Custom JS-->
+    <script src="assets/js/script.js"></script>
 
 </body>
-
 </html>
