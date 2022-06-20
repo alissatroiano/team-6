@@ -244,6 +244,13 @@ p {
   line-height: 1.5;
 }
 
+.caption {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
 /* ----------------------- Modal */
 .resources li {
   list-style-type: none;
