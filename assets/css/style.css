@@ -17,7 +17,6 @@ body {
 }
 
 /* ----------------------- Global Styles & Custom Classes */
-
 h1 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
@@ -38,7 +37,6 @@ p {
   font-family: 'futura-pt', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 2rem;
 }
 
 .body-font {
@@ -243,7 +241,6 @@ h2.artwork-title {
 
 p {
   margin-top: 0;
-  margin-bottom: var(--box-y-padding);
   line-height: 1.5;
 }
 
@@ -336,9 +333,8 @@ div .card {
   align-self: center;
 }
 
-
 /* ------------------------------------- Footer */
-footer{
+footer {
   border-top: 5px solid #fcb900;
 }
 
@@ -347,7 +343,6 @@ footer p {
 }
 
 /* ------------------------------------- Font Awesome */
-
 .fa-brands, .fab {
   font-family: "Font Awesome 6 Brands";
   font-weight: 600;
