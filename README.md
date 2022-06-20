@@ -1,8 +1,8 @@
 # **INKLUSION**
 
-![Live Project Mockup](path to mockup image goes here)
+![Live Project Mockup](docs/screenshots/mock-up.JPG)
 
-[Link to Live Project](link to live site goes here)
+[Link to Live Project](https://alissatroiano.github.io/team-6/)
 
 ## Table of Contents
 - [**INKLUSION**](#inklusion)
