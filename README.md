@@ -36,8 +36,10 @@
 
 ## Introduction
 
-This is a website providing information about LGBTQIA+ art throughout history. In keeping with Pride 2022 Theme: Togetherness, this website provides information on famous LGBTQA+ artists along with photo representation of a quintessential art piece from their repertoire. The website also provides information on local LGBTQA+ artists and how they can be contacted. The site is targeted towards not just the LGBTQA+ community, but to those interested in expanding their knowledge of art and looking to support local LGBTQA+ artists by adding to their art collection. 
+This is a website providing information about LGBTQIA+ art throughout history. In keeping with Pride 2022 Theme: Togetherness, this website provides information on famous LGBTQA+ artists along with photo representation of a quintessential art piece from their repertoire. The website also provides information on LGBTQA+ artists, organisations and chanrities and how they can be contacted. The site is targeted towards not just the LGBTQA+ community, but to those interested in expanding their knowledge of art and looking to support LGBTQA+ artists donating or by adding to their art collection.
+
 [The live project can be found here.](https://alissatroiano.github.io/team-6/)
+
 ## UX
 
 ### User Stories
@@ -50,10 +52,9 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 ### Wireframes
 
-The following wireframes were created to help plan the layout of the site:
+The following wireframe was created to help plan the layout of the site:
 
-* ![Homepage](docs/wireframes/hackathon_wireframes.png)
-* [Homepage](docs/wireframes/wireframe.pdf)
+![Homepage](docs/wireframes/hackathon_wireframes.png)
 
 
 ## Features
@@ -92,9 +93,7 @@ The following wireframes were created to help plan the layout of the site:
 
 ### Features Left to Implement
 
-* A constantly updating showcase of current and up-and-coming LGBTQIA+ artists.
-* A directory of LGBTQIA+ creatives with the option to contact them and buy art work.
-* A forum for LGBTQIA+ art lovers to meet and discuss art.
+The idea is that the site will evolve into a real art hub for LGBTQIA+ artists and all art fans. There would be an ever constantly udating showcase featuring current LGBTQIA+ artists who are making waves or who should be more appreaciated. There would also be a directory of LGBTQIA+ creatives allowing people to connect with and support them and a marketplace where they could showcase and sell their art. Finally there would be a forum where art fans could come together and discuss their favourite pieces or find information on classes, meet-ups and events.
 
 ## Technologies Used
 
@@ -145,20 +144,6 @@ The following steps can be used to clone the GitHub repository:
 
 ## Credits
 
-* Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
-Add the below to the media credits section:
-* Claud Cahun's Que me veut tu? is owned by the [Musee d'Art Modern](https://www.mam.paris.fr/en).
-* Gluck's Medallion is found in a Private Collection (photo by Christie's Images).
-* Beauford Delaney's Can Fire in the Park is owned by the [Smithsonian American Art Museum](https://americanart.si.edu/).
-* Frida Kahlo's Las dos Fridas is owned by the [Museo de Arte Moderno](https://mam.inba.gob.mx/).
-* Copyright for Francis Bacon's portrait of George Dyer in a Mirror is owned by the Estate of Francis Bacon.
-* Copyright for Andy Warhol's Brillo Box is owned by the Andy Warhol Foundation for the Visual Arts.
-* Robert Mapplethorpe's Self Portrait is owned by the [Solomon R. Guggenheim Museum](https://www.guggenheim.org/).
-* Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
-* Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
-* Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
-
-
 ### Code
 
   * [Electrillo](https://alissatroiano.github.io/team-4-april-2022/team.html) team page was used to help with the styling of the team page.
@@ -168,7 +153,7 @@ Add the below to the media credits section:
 
 ### Content
 
-* Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+* Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), [The Tate](https://www.tate.org.uk/), [The Royal Academy](https://www.royalacademy.org.uk/) and [MoMA](https://www.moma.org/).
 
 ### Media
 * Claud Cahun's Que me veut tu? is owned by the [Musee d'Art Modern](https://www.mam.paris.fr/en).
