@@ -15,6 +15,10 @@
     - [Existing Features](#existing-features)
       - [Navigation Bar](#navigation-bar)
       - [Website Theme Logo](#website-theme-logo)
+      - [Jumbotron](#jumbotron)
+      - [Gallery](#gallery)
+      - [Gallery Dropdown](#gallery-dropdown)
+      - [Team](#team)
     - [Features Left to Implement](#features-left-to-implement)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
@@ -48,8 +52,9 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 The following wireframes were created to help plan the layout of the site:
 
-* [Homepage](docs/wireframes/hackathon_wireframes.pdf)
-* [another page](path to file)
+* ![Homepage](docs/wireframes/hackathon_wireframes.png)
+* [Homepage](docs/wireframes/wireframe.pdf)
+
 
 ## Features
 
@@ -68,6 +73,22 @@ The following wireframes were created to help plan the layout of the site:
 * Clicking on the logo will bring the user back to the home page. 
 
 ![Website Theme Logo](/docs/screenshots/Home-Logo.jpeg)
+
+#### Jumbotron
+
+![Jumbotron](/docs/screenshots/jumbotron.png)
+
+#### Gallery
+
+![Gallery](docs/screenshots/gallery.png)
+
+#### Gallery Dropdown
+
+![Gallery Dropdown](docs/screenshots/gallery-nav.png)
+
+#### Team
+
+![Team](docs/screenshots/team.png)
 
 ### Features Left to Implement
 
@@ -140,11 +161,10 @@ Add the below to the media credits section:
 
 ### Code
 
-* Credit and articles etc that we have copied & updated code from:
-  * [Electrillo]() team page was used to help with the styling of the team page.
-  * [Smitten]() team page was used to help with the styling of the team page.
+  * [Electrillo](https://alissatroiano.github.io/team-4-april-2022/team.html) team page was used to help with the styling of the team page.
+  * [Smitten](https://alissatroiano.github.io/8-your-heart-out/developer-page.html) team page was used to help with the styling of the team page.
   * This [Codepen](https://codepen.io/bartveneman/pen/PQMzxp) was used to create the layout for the gallery pieces.
-  * 
+  * [Mozilla]https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows) was used to create the layout for the gallery pieces.
 
 ### Content
 
