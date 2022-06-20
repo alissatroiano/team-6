@@ -99,7 +99,6 @@ a:hover,
 
 /* ----------------------- Navigation */
 #logo {
-  float: left;
   font-family: 'futura-pt', sans-serif;
   font-size: 1.5rem;
   color: #0a0a0a;
@@ -111,17 +110,33 @@ a:hover,
   color: #000000;
 }
 
-.btn-modal {
+.btn-nav {
   font-size: 110%;
   color: #000000;
-  font-family: 'futura-pt', sans-serif;
   border: none;
   padding: 8px 0px;
+}
+
+.btn-nav:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar li, .btn-modal {
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  font-family: 'futura-pt', sans-serif;
+}
+
+.btn-modal {
+    border: none;
+}
+
+.btn-modal:hover {
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .gallery-dropdown {
@@ -136,6 +151,7 @@ a:hover,
 
 .dropdown-item, .dropdown-item:hover {
     background-color: #fafafa;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 /* ------------------------------------ Jumbotron */
@@ -255,8 +271,7 @@ p {
 }
 
 .resources a:hover {
-  border-bottom: 1px dashed #000000;
-  color: #dd7272;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .modal-content {
@@ -272,7 +287,7 @@ p {
 }
 
 .modal-body {
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 
 /* -------------------- About */
@@ -342,6 +357,13 @@ footer p {
   margin: 0;
 }
 
+.footer a {
+    color: #000000;
+    font-family: 'futura-pt', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
 /* ------------------------------------- Font Awesome */
 .fa-brands, .fab {
   font-family: "Font Awesome 6 Brands";
@@ -398,6 +420,12 @@ footer p {
     --box-y-padding: 6rem;
   }
 }
+
+@media (min-width: 576px) {
+    .footer-logo {
+      text-align: left !important;
+    }
+  }
 
 @media screen and (min-width: 768px) {
   #jumbotron-title {
