@@ -138,11 +138,13 @@ Add the below to the media credits section:
 * Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
 
 
-
-
 ### Code
 
-* Credit and articles etc that we have copied code from
+* Credit and articles etc that we have copied & updated code from:
+  * [Electrillo]() team page was used to help with the styling of the team page.
+  * [Smitten]() team page was used to help with the styling of the team page.
+  * This [Codepen](https://codepen.io/bartveneman/pen/PQMzxp) was used to create the layout for the gallery pieces.
+  * 
 
 ### Content
 
@@ -159,6 +161,7 @@ Add the below to the media credits section:
 * Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
 * Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
 * Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
+* The jumbotron image was licensed from [Adobe Stock](https://stock.adobe.com/163166422)
 
 ### Other
 
