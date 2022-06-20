@@ -307,6 +307,20 @@ p {
   padding-top: 100px;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #333;
+}
+
+#btn-back-to-top:hover {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #666;
+}
+
 /* ----------------------- Modal */
 .resources li {
   list-style-type: none;

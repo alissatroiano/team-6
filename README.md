@@ -82,7 +82,10 @@ The following wireframes were created to help plan the layout of the site:
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [AOS Library](https://michalsnik.github.io/aos/)
 * [Bootstrap 5](https://getbootstrap.com/)
-*  
+* [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Adobe Fonts](https://www.adobe.com/products/typekit.html)
 
 ### Frameworks, Libraries & Programs Used
 
