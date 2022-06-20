@@ -5,26 +5,30 @@
 [Link to Live Project](link to live site goes here)
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [UX](#ux)
-  - [User Stories](#user-stories)
-  - [Wireframes](#wireframes)
-- [Features](#features)
-  - [Existing Features](#existing-features)
-  - [Features Left to Implement](#features-left-to-implement)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Testing](#testing)
-- [Deployment](#deployment)
-  - [GitHub](#github-pages)
-  - [Forking the GitHub Repository](#forking-the-github-repository)
-  - [Cloning the GitHub Repository](#cloning-the-github-repository)
-- [Credits](#credits)
-  - [Code](#code)
-  - [Content](#content)
-  - [Media](#media)
-  - [Other](#other)
+- [**INKLUSION**](#inklusion)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [UX](#ux)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [Navigation Bar](#navigation-bar)
+      - [Website Theme Logo](#website-theme-logo)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Cloning the GitHub Repository](#cloning-the-github-repository)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Other](#other)
 
 ## Introduction
 
@@ -74,7 +78,11 @@ The following wireframes were created to help plan the layout of the site:
 ## Technologies Used
 
 ### Languages Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [AOS Library](https://michalsnik.github.io/aos/)
+* [Bootstrap 5](https://getbootstrap.com/)
+*  
 
 ### Frameworks, Libraries & Programs Used
 
