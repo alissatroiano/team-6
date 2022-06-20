@@ -113,7 +113,6 @@ a:hover,
 .btn-nav {
   font-size: 110%;
   color: #000000;
-  font-family: 'futura-pt', sans-serif;
   border: none;
   padding: 8px 0px;
 }
@@ -129,6 +128,7 @@ a:hover,
 .navbar li, .btn-modal {
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  font-family: 'futura-pt', sans-serif;
 }
 
 .btn-modal {
