@@ -137,11 +137,20 @@ Add the below to the media credits section:
 * Credit and articles etc that we have copied code from
 
 ### Content
-* credit fonts and font awesome icons etc
-* Credit and sites we have taken information from
+
+* Information about the artists has been taken from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
 
 ### Media
-* Credit images used
+* Claud Cahun's Que me veut tu? is owned by the [Musee d'Art Modern](https://www.mam.paris.fr/en).
+* Gluck's Medallion is found in a Private Collection (photo by Christie's Images).
+* Beauford Delaney's Can Fire in the Park is owned by the [Smithsonian American Art Museum](https://americanart.si.edu/).
+* Frida Kahlo's Las dos Fridas is owned by the [Museo de Arte Moderno](https://mam.inba.gob.mx/).
+* Copyright for Francis Bacon's portrait of George Dyer in a Mirror is owned by the Estate of Francis Bacon.
+* Copyright for Andy Warhol's Brillo Box is owned by the Andy Warhol Foundation for the Visual Arts.
+* Robert Mapplethorpe's Self Portrait is owned by the [Solomon R. Guggenheim Museum](https://www.guggenheim.org/).
+* Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
+* Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
+* Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
 
 ### Other
 
