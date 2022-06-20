@@ -248,11 +248,40 @@ img .art {
   box-shadow: 0 0.2em 1.2em rgba(61, 48, 41, 0.1);
 }
 
+.artwork-row {
+  margin: 20px 0;
+}
+
 h2.artwork-title {
+  font-family: 'Playfair Display', serif;
   margin: 0 0 1rem;
-  font-family: serif;
   position: relative;
-  font-size: 2rem;
+  font-size: 1.85rem;
+  font-weight: 450;
+  color: #282828;
+}
+
+ .artist-details {
+  font-family: 'futura-pt', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+  position: relative;
+  font-size: 1.35rem;
+  background-image: linear-gradient(to left, rgb(111, 25, 181), rgb(168, 105, 213), rgb(0, 162, 255), rgb(14, 164, 14), rgb(237, 191, 23), rgb(255, 153, 0), rgb(234, 13, 13));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 450;
+}
+
+.artwork-details {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.dates {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
 }
 
 p {
@@ -387,13 +416,15 @@ footer p {
   .artwork-row {
     display: grid;
     grid-template-rows: repeat(3, auto);
-    grid-template-columns: 4fr 4fr 5fr;
-    grid-template-areas: '. . title''img img content''img img .';
+    grid-template-columns: 6fr 2fr 6fr;
+    grid-template-areas:
+      '. . title'
+      'img img content'
+      'img img .';
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
   }
-
   .artwork-row::after {
     content: '';
     grid-column: 2/-1;
@@ -405,7 +436,6 @@ footer p {
     box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
     /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
   }
-
   h2.artwork-heading {
     grid-area: title;
     font-size: 3em;
@@ -419,7 +449,6 @@ footer p {
     padding-left: var(--box-x-padding);
     padding-right: var(--box-x-padding);
   }
-
   .img {
     grid-area: img;
   }
@@ -449,7 +478,6 @@ footer p {
   #jumbotron-icon {
     font-size: 5rem;
   }
-
   .text-main.hero-fade,
   div.dark,
   div.dark-sm {
@@ -458,7 +486,6 @@ footer p {
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
-
   .fas.fa-chevron-down {
     margin-top: 150px;
     font-size: 45px;
