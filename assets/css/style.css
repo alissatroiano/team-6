@@ -267,6 +267,10 @@ p {
   font-style: italic;
 }
 
+.header {
+  padding-top: 100px;
+}
+
 /* ----------------------- Modal */
 .resources li {
   list-style-type: none;
@@ -454,10 +458,19 @@ footer p {
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
+
+  .fas.fa-chevron-down {
+    margin-top: 150px;
+    font-size: 45px;
+  }
 }
 
 @media screen and (min-width: 992px) {
     .btn-modal {
       padding: 8px;
+    }
+    .fas.fa-chevron-down {
+      margin-top: 100px;
+      font-size: 35px;
     }
   }
