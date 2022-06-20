@@ -101,7 +101,7 @@ The following wireframes were created to help plan the layout of the site:
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 * [AOS Library](https://michalsnik.github.io/aos/)
