@@ -80,17 +80,14 @@ The following wireframes were created to help plan the layout of the site:
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries & Programs Used
 * [AOS Library](https://michalsnik.github.io/aos/)
 * [Bootstrap 5](https://getbootstrap.com/)
-* [JavaScript] (https://en.wikipedia.org/wiki/JavaScript)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Adobe Fonts](https://www.adobe.com/products/typekit.html)
-
-### Frameworks, Libraries & Programs Used
-
-* [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) has been used to assist with the styling of the site and particularly the responsiveness.
-* List other frameworks we have used.
 
 ## Testing
 
