@@ -42,12 +42,12 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-label="Go to the homepage" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item gallery-dropdown dropdown">
+                        <li class="gallery-dropdown dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="galleryDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Gallery
                             </a>
-                            <div class="gallery-dropdown-menu dropdown-menu" aria-labelledby="galleryDropdown">
+                            <div class="gallery-dropdown-menu dropdown-menu nav-item" aria-labelledby="galleryDropdown">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-sm-6 col-md-4 col-lg-3">
@@ -465,12 +465,19 @@
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
     <!--AOS Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <!--Initialize AOS Library-->
     <script>
         AOS.init();
     </script>
-
+    <!--Auto-close Nav-->
+    <script>
+        const navLinks = document.querySelectorAll('.nav-item')
+        const menuToggle = document.getElementById('navbarSupportedContent')
+        const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
+        navLinks.forEach((l) => {
+          l.addEventListener('click', () => { bsCollapse.toggle() })
+        })
+      </script>
 </body>
 
 </html>
