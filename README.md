@@ -114,7 +114,8 @@ The idea is that the site will evolve into a real art hub for LGBTQIA+ artists a
 ### Validator Testing
 
 **[HTML W3C Validator:](https://validator.w3.org/)**
-* CONFIRM AND FIX ERRORS
+* A check on the team page showed a duplicate id on the footer logo and an incorrect id on the modal header. These have been renamed on the team an index page.
+* No other errors were found on the team page.
 
 **[CSS Jigsaw Validator:](https://jigsaw.w3.org/css-validator/)**
 * No errors were found.
