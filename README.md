@@ -5,26 +5,34 @@
 [Link to Live Project](link to live site goes here)
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [UX](#ux)
-  - [User Stories](#user-stories)
-  - [Wireframes](#wireframes)
-- [Features](#features)
-  - [Existing Features](#existing-features)
-  - [Features Left to Implement](#features-left-to-implement)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Testing](#testing)
-- [Deployment](#deployment)
-  - [GitHub](#github-pages)
-  - [Forking the GitHub Repository](#forking-the-github-repository)
-  - [Cloning the GitHub Repository](#cloning-the-github-repository)
-- [Credits](#credits)
-  - [Code](#code)
-  - [Content](#content)
-  - [Media](#media)
-  - [Other](#other)
+- [**INKLUSION**](#inklusion)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [UX](#ux)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [Navigation Bar](#navigation-bar)
+      - [Website Theme Logo](#website-theme-logo)
+      - [Jumbotron](#jumbotron)
+      - [Gallery](#gallery)
+      - [Gallery Dropdown](#gallery-dropdown)
+      - [Team](#team)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Cloning the GitHub Repository](#cloning-the-github-repository)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Other](#other)
 
 ## Introduction
 
@@ -44,8 +52,9 @@ This is a website providing information about LGBTQIA+ art throughout history. I
 
 The following wireframes were created to help plan the layout of the site:
 
-* [Homepage](docs/wireframes/hackathon_wireframes.pdf)
-* [another page](path to file)
+* ![Homepage](docs/wireframes/hackathon_wireframes.png)
+* [Homepage](docs/wireframes/wireframe.pdf)
+
 
 ## Features
 
@@ -65,6 +74,22 @@ The following wireframes were created to help plan the layout of the site:
 
 ![Website Theme Logo](/docs/screenshots/Home-Logo.jpeg)
 
+#### Jumbotron
+
+![Jumbotron](/docs/screenshots/jumbotron.png)
+
+#### Gallery
+
+![Gallery](docs/screenshots/gallery.png)
+
+#### Gallery Dropdown
+
+![Gallery Dropdown](docs/screenshots/gallery-nav.png)
+
+#### Team
+
+![Team](docs/screenshots/team.png)
+
 ### Features Left to Implement
 
 * A constantly updating showcase of current and up-and-coming LGBTQIA+ artists.
@@ -74,12 +99,16 @@ The following wireframes were created to help plan the layout of the site:
 ## Technologies Used
 
 ### Languages Used
-* [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/CSS), [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
-
-* [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) has been used to assist with the styling of the site and particularly the responsiveness.
-* List other frameworks we have used.
+* [AOS Library](https://michalsnik.github.io/aos/)
+* [Bootstrap 5](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Adobe Fonts](https://www.adobe.com/products/typekit.html)
 
 ## Testing
 
@@ -130,11 +159,12 @@ Add the below to the media credits section:
 * Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
 
 
-
-
 ### Code
 
-* Credit and articles etc that we have copied code from
+  * [Electrillo](https://alissatroiano.github.io/team-4-april-2022/team.html) team page was used to help with the styling of the team page.
+  * [Smitten](https://alissatroiano.github.io/8-your-heart-out/developer-page.html) team page was used to help with the styling of the team page.
+  * This [Codepen](https://codepen.io/bartveneman/pen/PQMzxp) was used to create the layout for the gallery pieces.
+  * [Mozilla]https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows) was used to create the layout for the gallery pieces.
 
 ### Content
 
@@ -151,6 +181,7 @@ Add the below to the media credits section:
 * Keith Haring's Ignorance = Fear / Silence = Death is owned by the [Whitney Museum of American Art](https://whitney.org/).
 * Copyright for Catherine Opie's Chicken is owned by Catherine Opie.
 * Copyright for Zanele Muholi's ID Crisis is owned by Zanele Muholi.
+* The jumbotron image was licensed from [Adobe Stock](https://stock.adobe.com/163166422)
 
 ### Other
 

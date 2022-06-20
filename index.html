@@ -15,15 +15,19 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
     </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Favicon-->
+    <!--Favicon Link-->
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico" />
+    <link rel="shortcut icon" type="image/ico" href="assets/images/favicon.png" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>INKLUSION</title>
 </head>
 
 <body>
     <!--header-->
-    <header>
+    <header class="bg-light pb-5">
         <!-- Navigation -->
-        <nav class="navbar fix navbar-expand-lg shadow-lg">
+        <nav class="navbar fixed-top bg-light navbar-expand-lg shadow-lg">
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span
@@ -38,54 +42,66 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-label="Go to the homepage" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item gallery-dropdown dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="galleryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Gallery
+                        <li class="gallery-dropdown dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="galleryDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Gallery
                             </a>
-                            <div class="gallery-dropdown-menu dropdown-menu" aria-labelledby="galleryDropdown">
+                            <div class="gallery-dropdown-menu dropdown-menu nav-item" aria-labelledby="galleryDropdown">
                                 <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Claude Cahun artwork" href="#">View All</a>
+                                            <a class="dropdown-item" aria-label="Go to the Claude Cahun artwork"
+                                                href="#gallery">View All</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Claude Cahun artwork" href="#">Claude Cahun</a>
+                                            <a class="dropdown-item" aria-label="Go to the Claude Cahun artwork"
+                                                href="#cahun">Claude Cahun</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Gluck artwork" href="#">Gluck</a>
+                                            <a class="dropdown-item" aria-label="Go to the Gluck artwork"
+                                                href="#gluck">Gluck</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Beauford Delaney artwork" href="#">Beauford Delaney</a>
+                                            <a class="dropdown-item" aria-label="Go to the Beauford Delaney artwork"
+                                                href="#delaney">Beauford Delaney</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Frida Kahlo artwork" href="#">Frida Kahlo</a>
+                                            <a class="dropdown-item" aria-label="Go to the Frida Kahlo artwork"
+                                                href="#kahlo">Frida Kahlo</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Francis Bacon artwork" href="#">Francis Bacon</a>
+                                            <a class="dropdown-item" aria-label="Go to the Francis Bacon artwork"
+                                                href="#bacon">Francis Bacon</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Andy Warhol artwork" href="#">Andy Warhol</a>
+                                            <a class="dropdown-item" aria-label="Go to the Andy Warhol artwork"
+                                                href="#warhol">Andy Warhol</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Robert Mapplethorpe artwork" href="#">Robert Mapplethorpe</a>
+                                            <a class="dropdown-item" aria-label="Go to the Robert Mapplethorpe artwork"
+                                                href="#mapplethorpe">Robert Mapplethorpe</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Keith Haring artwork" href="#">Keith Haring</a>
+                                            <a class="dropdown-item" aria-label="Go to the Keith Haring artwork"
+                                                href="#haring">Keith Haring</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Catherine Opie artwork" href="#">Catherine Opie</a>
+                                            <a class="dropdown-item" aria-label="Go to the Catherine Opie artwork"
+                                                href="#opie">Catherine Opie</a>
                                         </div>
                                         <div class="col-sm-6 col-md-4 col-lg-3">
-                                            <a class="dropdown-item" aria-label="Go to the Zanele Muholi artwork" href="#">Zanele Muholi</a>
+                                            <a class="dropdown-item" aria-label="Go to the Zanele Muholi artwork"
+                                                href="#muholi">Zanele Muholi</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <li class="nav-item" >
+                        <li class="nav-item">
                             <a class="nav-link" aria-label="Go to the team page" href="team.html">Team</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
                             <button type="button" class="btn btn-nav btn-modal" data-bs-toggle="modal"
                                 data-bs-target="#resourceModal">Get Involved</button>
                         </li>
@@ -95,13 +111,12 @@
         </nav>
     </header>
     <!--./header-->
-
     <!--Jumbotron-->
     <section class="jumbotron" id="jumbotron-section">
         <div class="container">
             <div class="col-12 pt-5">
                 <div class="row d-flex text-center" data-aos="fade-in" data-aos-duration="2500" data-aos-delay="100">
-                    <i class="fas fa-tint fa-3x pt-3 pt-md-5 txt-shadow"></i>
+                    <i class="fas fa-tint fa-3x pt-3 pt-md-5 txt-shadow" id="tint"></i>
                     <h1 class="display-4 center" id="jumbotron-title">
                         <span class="rainbow-text">INK</span>LUSION
                     </h1>
@@ -121,14 +136,13 @@
                     </h2>
                 </div>
             </div>
-            <div class="row d-flex text-center py-5">
+            <div class="row d-flex text-center py-5" data-aos="fade-in" data-aos-duration="4500" data-aos-delay="800">
                 <a class="text-dark" href="#gallery">
                     <i class="fas fa-chevron-down fa-2x mb-3"></i>
                 </a>
             </div>
         </div>
     </section>
-
     <!--Gallery Section-->
     <section class="gallery-section p-3" id="gallery">
         <div class="container-fluid p-3 p-md-5">
@@ -136,11 +150,15 @@
             <div class="row text-center">
                 <div class="col-12">
                     <h2 class="section-header">Gallery</h2>
+                    <p></p>
                     <hr>
                 </div>
+
             </div>
             <!--./section heading-->
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            <!--gallery-->
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="cahun">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Que me veux tu?</h2>
@@ -155,12 +173,14 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/que-me-veux-tu.jpg"
                             alt="Image of Que me veux tu? by Claud Cahun">
-                        <span style="display:inline-block;padding:2px 3px;">1929, Mus&eacute;e d'Art Moderne</span></a>
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1929, Mus&eacute;e d'Art
+                            Moderne</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
-                <div class="artwork-row" id="display-1">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="gluck">
+                <div class="artwork-row-reverse" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Medallion</h2>
                         <h3 class="artist-details">By Gluck</h3>
@@ -172,11 +192,13 @@
                     </div>
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/medallion.jpg" alt="Image of Medallion by Gluck">
-                        <span style="display:inline-block;padding:2px 3px;">1937, Private Collection</span></a>
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1937, Private
+                            Collection</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="delaney">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Can Fire in the Park</h2>
@@ -191,13 +213,15 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/can-fire-in-the-park.png"
                             alt="Image of Can Fire in the Park by Beauford Delaney">
-                        <span style="display:inline-block;padding:2px 3px;">1946, Smithsonian American Art
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1946, Smithsonian American
+                            Art
                             Museum</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
-                <div class="artwork-row" id="display-1">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="kahlo">
+                <div class="artwork-row-reverse" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Las dos Fridas</h2>
                         <h3 class="artist-details">By Frida Kahlo</h3>
@@ -210,11 +234,13 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/the-two-fridas.jpg"
                             alt="Image of Los dos Fridas by Frida Kahlo">
-                        <span style="display:inline-block;padding:2px 3px;">1939, Museo de Arte Moderno</span></a>
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1939, Museo de Arte
+                            Moderno</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="bacon">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Portrait of George Dyer in a Mirror</h2>
@@ -226,14 +252,16 @@
                             artworks of Dyer including this painting.</p>
                     </div>
                     <div class="img my-3 my-md-5">
-                        <img class="img-fluid art" src="assets/images/portrait-of-george-dyer-in-a-mirror.webp"
+                        <img class="img-fluid art" src="assets/images/portrait-of-george-dyer-in-a-mirror.jpg"
                             alt="Image of Portrait of George Dyer in a Mirror by Francis Bacon">
-                        <span style="display:inline-block;padding:2px 3px;">1968, The Estate of Francis Bacon</span></a>
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1968, The Estate of Francis
+                            Bacon</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
-                <div class="artwork-row" id="display-1">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="warhol">
+                <div class="artwork-row-reverse" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Brillo Box (Soap Pads)</h2>
                         <h3 class="artist-details">By Andy Warhol</h3>
@@ -245,12 +273,14 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/brillo-box.jpg"
                             alt="Image of Brillo Box by Andy Warhol">
-                        <span style="display:inline-block;padding:2px 3px;">1964, Andy Warhol Foundation for the Visual
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1964, Andy Warhol Foundation
+                            for the Visual
                             Atrs</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="mapplethorpe">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Self Portrait</h2>
@@ -266,13 +296,14 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/self-portrait.jpg"
                             alt="Image of Self portrait by Robert Mapplethorpe">
-                        <span style="display:inline-block;padding:2px 3px;">1980, Solomon R. Guggenheim
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1980, Solomon R. Guggenheim
                             Museum</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
-                <div class="artwork-row" id="display-1">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="haring">
+                <div class="artwork-row-reverse" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Ignorance = Fear / Silence = Death</h2>
                         <h3 class="artist-details">By Keith Haring</h3>
@@ -285,12 +316,14 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/ignorance=fear.jpg"
                             alt="Image of Ignorance = Fear / Silence = Death by Keith Haring">
-                        <span style="display:inline-block;padding:2px 3px;">1989, Whitney Museum of American
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1989, Whitney Museum of
+                            American
                             Art</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="opie">
                 <div class="artwork-row" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">Chicken</h2>
@@ -305,12 +338,14 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/chicken.jpg"
                             alt="Image of Chicken by Catherine Opie">
-                        <span style="display:inline-block;padding:2px 3px;">1991, Catherine Opie</span></a>
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">1991, Catherine
+                            Opie</span></a>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex flex-wrap p-3 p-md-5">
-                <div class="artwork-row" id="display-1">
+            <div class="row d-flex flex-wrap p-3 p-md-5" div data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000" id="muholi">
+                <div class="artwork-row-reverse" id="display-1">
                     <div class="content">
                         <h2 class="artwork-title mt-3 mt-md-5">ID Crisis</h2>
                         <h3 class="artist-details">By Zanele Muholi</h3>
@@ -323,13 +358,46 @@
                     <div class="img my-3 my-md-5">
                         <img class="img-fluid art" src="assets/images/id-crisis.jpg"
                             alt="Image of ID Crisis by Zanele Muholi">
-                        <span style="display:inline-block;padding:2px 3px;">2003, Zanele Muholi</span></a>
+                        <span style="display:inline-block;padding:2px 3px;" class="caption">2003, Zanele
+                            Muholi</span></a>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Back to top button -->
     </section>
-
+    <div class=" d-flex justify-content-end">
+        <button type="button" class="btn border-0" id="btn-back-to-top">
+            <i class="fas fa-chevron-up fa-2x"></i>
+        </button>
+    </div>
+    <!-- Footer -->
+    <footer class="my-4 footer container-fluid">
+        <div class="clearfix text-center footer-logo">
+            <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span
+                    class="rainbow-text">INK</span>LUSION</a>
+        </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="index.html#gallery" class="nav-link px-2">Gallery</a></li>
+            <li class="nav-item"><a href="team.html" class="nav-link px-2">Team</a></li>
+            <li class="nav-item"><button type="button" class="btn btn-modal" data-bs-toggle="modal"
+                    data-bs-target="#resourceModal">Get Involved</button></li>
+        </ul>
+        <ul class="nav justify-content-center justify-content-sm-end">
+            <li class="nav-item"><a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="nav-item"><a href="https://twitter.com/codeinstitute" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="nav-item"><a href="https://www.linkedin.com/school/code-institute/mycompany/" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="nav-item"><a href="https://github.com/Code-Institute-Community/ci-hackathon-app" target="_blank"
+                    class="nav-link px-2 text-muted"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <p class="text-center text-muted">
+            <small>© 2022 Code Institutes Pride Hackathon Team - CTRL ALT Elite</small>
+        </p>
+    </footer>
     <!-- Resources Modal -->
     <div class="modal fade" id="resourceModal" tabindex="-1" aria-labelledby="resourceModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -339,7 +407,8 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="mb-1">Whether you're a LGBTQIA+ artist youself or are keen to meet and support those who are, the
+                    <p class="mb-1">Whether you're a LGBTQIA+ artist youself or are keen to meet and support those who
+                        are, the
                         below sites are a great way to start connecting with the LGBTQIA+ creative community.</p>
                     <ul class="resources">
                         <li>
@@ -394,39 +463,28 @@
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <footer class="my-4 footer container-fluid">
-        <div class="clearfix text-center footer-logo">
-            <a class="navbar-brand" href="index.html" id="logo"><i class="fa-solid fa-droplet"></i><span class="rainbow-text">INK</span>LUSION</a>
-        </div>
-        <ul class="nav justify-content-center">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2">Home</a></li>
-            <li class="nav-item"><a href="index.html#gallery" class="nav-link px-2">Gallery</a></li>
-            <li class="nav-item"><a href="team.html" class="nav-link px-2">Team</a></li>
-            <li class="nav-item"><button type="button" class="btn btn-modal" data-bs-toggle="modal" data-bs-target="#resourceModal">Get Involved</button></li>
-        </ul>        
-        <ul class="nav justify-content-center justify-content-sm-end">
-            <li class="nav-item"><a href="https://www.facebook.com/Code.InstituteIRL/" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-facebook"></i></a></li>
-            <li class="nav-item"><a href="https://twitter.com/codeinstitute" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-twitter"></i></a></li>
-            <li class="nav-item"><a href="https://www.linkedin.com/school/code-institute/mycompany/" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li class="nav-item"><a href="https://github.com/Code-Institute-Community/ci-hackathon-app" target="_blank" class="nav-link px-2 text-muted"><i class="fa-brands fa-github"></i></a></li>
-        </ul>
-        <p class="text-center text-muted"><small>© 2022 Code Institutes Pride Hackathon Team - CTRL ALT Elite</small></p>
-    </footer>
-
     <!-- Bootstrap 5 JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52`nD2"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2408548ad3.js" crossorigin="anonymous"></script>
     <!--AOS Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <!--Initialize AOS Library-->
     <script>
         AOS.init();
     </script>
+    <!--Auto-close Nav-->
+    <script>
+        const navLinks = document.querySelectorAll('.nav-item')
+        const menuToggle = document.getElementById('navbarSupportedContent')
+        const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => { bsCollapse.toggle() })
+        })
+    </script>
+    <!--Custom JS-->
+    <script src="assets/js/script.js"></script>
 
-</body>
-
+</body> 
 </html>

@@ -81,15 +81,15 @@ a:hover,
 
 .section-header {
   font-family: 'Playfair Display', serif;
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #282828;
-  letter-spacing: 0.1rem;
+  font-size: 3em;
+  font-weight: 410;
+  color: rgb(51, 51, 51);
+  letter-spacing: 4.5px;
   text-transform: uppercase;
   margin-bottom: 2rem;
-  text-shadow: 0px 4px 3px rgba(52, 52, 52, 0.4),
-    0px 8px 13px rgba(52, 52, 52, 0.1),
-    0px 18px 23px rgba(52, 52, 52, 0.1);
+  text-shadow: 0px 4px 3px rgba(52, 52, 52, 0.36),
+    0px 8px 13px rgba(52, 52, 52, 0.305),
+    0px 18px 23px rgba(52, 52, 52, 0.16);
 }
 
 .small-text {
@@ -97,11 +97,18 @@ a:hover,
   font-size: 1rem;
 }
 
+
+hr {
+  width: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 30px auto;
+}
+
 /* ----------------------- Navigation */
 #logo {
   font-family: 'futura-pt', sans-serif;
   font-size: 1.5rem;
-  color: #0a0a0a;
+  color: #333;
   letter-spacing: 4px;
 }
 
@@ -248,16 +255,70 @@ img .art {
   box-shadow: 0 0.2em 1.2em rgba(61, 48, 41, 0.1);
 }
 
+.artwork-row {
+  margin: 20px 0;
+}
+
 h2.artwork-title {
+  font-family: 'Playfair Display', serif;
   margin: 0 0 1rem;
-  font-family: serif;
   position: relative;
-  font-size: 2rem;
+  font-size: 1.85rem;
+  font-weight: 450;
+  color: #282828;
+}
+
+ .artist-details {
+  font-family: 'futura-pt', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+  position: relative;
+  font-size: 1.35rem;
+  background-image: linear-gradient(to left, rgb(111, 25, 181), rgb(168, 105, 213), rgb(0, 162, 255), rgb(14, 164, 14), rgb(237, 191, 23), rgb(255, 153, 0), rgb(234, 13, 13));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 450;
+}
+
+.artwork-details {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.dates {
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1rem;
 }
 
 p {
   margin-top: 0;
   line-height: 1.5;
+}
+
+.caption {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.header {
+  padding-top: 100px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #333;
+}
+
+#btn-back-to-top:hover {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #666;
 }
 
 /* ----------------------- Modal */
@@ -376,20 +437,38 @@ footer p {
   .artwork-row {
     display: grid;
     grid-template-rows: repeat(3, auto);
-    grid-template-columns: 4fr 4fr 5fr;
-    grid-template-areas: '. . title''img img content''img img .';
+    grid-template-columns: 6fr 2fr 6fr;
+    grid-template-areas:
+      '. . title'
+      'img img content'
+      'img img .';
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
   }
 
-  .artwork-row::after {
+  .artwork-row-reverse {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 6fr 2fr 6fr;
+    grid-template-areas:
+      '. . title'
+      'img img content'
+      'img img .';
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-auto-flow: dense;
+    direction: rtl;
+  }
+  
+  .artwork-row::after,
+  .artwork-row-reverse::after {
     content: '';
     grid-column: 2/-1;
     grid-row: 1/3;
     position: relative;
     z-index: -1;
-    background-color: #eef6f79c;
     /* box-shadow: 1px 3px 6px rgba(47, 47, 47, 0.38); */
     box-shadow: rgba(83, 83, 83, 0.15) 0px 15px 25px, rgba(101, 101, 101, 0.932) 0px 3px 28px;
     /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
@@ -401,14 +480,12 @@ footer p {
     padding-top: var(--box-y-padding);
     padding-left: var(--box-x-padding);
   }
-
   .content {
     grid-area: content;
     padding-bottom: var(--box-y-padding);
     padding-left: var(--box-x-padding);
     padding-right: var(--box-x-padding);
   }
-
   .img {
     grid-area: img;
   }
@@ -438,7 +515,6 @@ footer p {
   #jumbotron-icon {
     font-size: 5rem;
   }
-
   .text-main.hero-fade,
   div.dark,
   div.dark-sm {
@@ -447,10 +523,18 @@ footer p {
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
+  .fas.fa-chevron-down {
+    margin-top: 150px;
+    font-size: 45px;
+  }
 }
 
 @media screen and (min-width: 992px) {
     .btn-modal {
       padding: 8px;
+    }
+    .fas.fa-chevron-down {
+      margin-top: 100px;
+      font-size: 35px;
     }
   }
